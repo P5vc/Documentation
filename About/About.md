@@ -18,5 +18,13 @@ Although it is true that Priveasy charges its users for plans, we do not take an
 At no point will you find any trackers, cookies, analytics, etc. on our website or embedded in our services. Priveasy takes your privacy seriously, and will go to great lengths to protect it. Don't believe us? Continue reading! You have access to our entire codebase right here at your fingertips. You will never find a single piece of code running on our servers that is not open source, and readily available for you to inspect.
 
 ## History
+### Priveasy v0.0
+Although Priveasy may not have gotten a website or even its name until May of 2019, it was in the works long beforehand. Years before its official creation, Priveasy's founder—Noah—had dedicated his life to internet privacy and security. He was active in the open source community, contributing to many projects, and creating many more of his own. But, it wasn't until he entered high school that Priveasy really started to take shape. Concerned with the extensive levels of logging/tracking/blocking being done by the school system, the town's ISP, and even the federal government, Noah made it his goal to create a solution. Before long, he stumbled across [Algo VPN](https://github.com/trailofbits/algo "Algo VPN"), and used it to set up a simple VPN server for he and his classmates to use. A short while later, there was a long list of users, whom he charged $0.30 each per month, to help cover the server costs.
+
+Although Noah was happy with the VPN server, it still wasn't enough for him, and his "client" list was only growing. It was around this time that he began researching and drafting other important privacy tools to implement, as well as a way to make those services scaleable, and automated. And that, is how Priveasy was born.
+### Priveasy v1.0
+### Priveasy v2.0
+### Priveasy v3.0
+
 ## Services
 ## Goals
