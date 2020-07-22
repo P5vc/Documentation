@@ -37,7 +37,7 @@ Wrong:
 ```python
 exampleDict={"Zero": 0, "One": 1}
 
-if exampleDict['Zero']:
+if exampleDict["Zero"]:
 	print("This should not be printed!")
 else:
 	randomString="123Oneabc"
