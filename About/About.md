@@ -4,6 +4,11 @@
 
 - [Overview](#overview "Overview")
 - [History](#history "History")
+  - [Priveasy v0.0](#priveasy-v00 "Priveasy v0.0")
+  - [Priveasy v1.0](#priveasy-v10 "Priveasy v1.0")
+  - [Priveasy v1.x](#priveasy-v1x "Priveasy v1.x")
+  - [Priveasy v2.0](#priveasy-v20 "Priveasy v2.0")
+  - [Priveasy v3.0](priveasy-v30 "Priveasy v3.0")
 - [Services](#services "Services")
 - [Goals](#goals "Goals")
 
@@ -42,10 +47,58 @@ This first version of the website was extremely simple, to say the least. Most o
 ###### Priveasy v1.0's Account Page:
 ![Priveasy v1.0's account page](https://raw.githubusercontent.com/P5vc/Documentation/master/About/accountPage.PNG "Priveasy v1.0's account page")
 
+### Priveasy v1.x
+
+After Priveasy's initial public release in June, a lot of work went into debugging the site, researching new features, and working around a myriad of problems that arose. Soon enough, it was abundantly clear that some form of version control was needed. On `Friday, October 25, 2019 9:17:45 PM GMT-04:00 DST`, about six months after the public release, the first-ever commit was made.
+
+This first commit wasn't made until a massive amount of effort was put into the functionality of the backend, and into the squashing of bugs. The hope was to use this first commit to document the "initial" state of Priveasy, before doing a complete overhaul to the webdesign. However, over time, many other features were added and changes were made.
+
+###### Log of major commits made to Priveasy v1.x:
+
+```
+0000000000000000000000000000000000000000 1c840c32674b4fc2f20694911bd5eb08c25fa178 nonroot <Email Address Witheld> 1572052665 -0400	commit (initial): Initial commit. Decided to start using version control while developing Priveasy. This initial commit contains all of the functional code written up to this point, for the website and its services.
+1c840c32674b4fc2f20694911bd5eb08c25fa178 d742380c0efcce2d94dbd7e567a166002dd66b74 unknown <Email Address Witheld> 1572128962 -0400	commit: Added the updated home.html file and supporting files from after the redesign, and removed the designated login page, as logins are now handled directly from the home page.
+d742380c0efcce2d94dbd7e567a166002dd66b74 cf97b56785f4d2c5504d0ea2514d25592a831588 unknown <Email Address Witheld> 1572143012 -0400	commit: Many small changes; Revamped Register Page
+cf97b56785f4d2c5504d0ea2514d25592a831588 d5b655537ad5317253c72719423e11cf66539da1 unknown <Email Address Witheld> 1572143636 -0400	commit: Made Django Template Friendly
+d5b655537ad5317253c72719423e11cf66539da1 3bfbd135f7727fd3f4c87577a8e16c5103da136f unknown <Email Address Witheld> 1572144335 -0400	commit: Added terms agreement
+3bfbd135f7727fd3f4c87577a8e16c5103da136f 54b2fc8dff8564b260181fd3aecda12dbc151551 unknown <Email Address Witheld> 1572144955 -0400	commit: Update register section
+54b2fc8dff8564b260181fd3aecda12dbc151551 be879d16608ec2f047892a19347fcbaafafd4482 unknown <Email Address Witheld> 1572146823 -0400	commit: Added a new image and spacing to the register page.
+be879d16608ec2f047892a19347fcbaafafd4482 560c7bf5fb3267d20eb99897844d6cfee17b0243 unknown <Email Address Witheld> 1572147191 -0400	commit: Corrected Image Directory
+560c7bf5fb3267d20eb99897844d6cfee17b0243 517177acfb8b562fe7365d932b01b720ed31c117 unknown <Email Address Witheld> 1572147426 -0400	commit: Corrected Image Filepath
+517177acfb8b562fe7365d932b01b720ed31c117 30906cec3fa316e38ee0403e454bbe0819c5dee5 unknown <Email Address Witheld> 1572148812 -0400	commit: Add form error messages
+30906cec3fa316e38ee0403e454bbe0819c5dee5 68a3663972bb1f5400b7c5069f16f44f4ddbc7c9 unknown <Email Address Witheld> 1572149560 -0400	commit: Make sure both passwords match; if they do not, raise an error
+68a3663972bb1f5400b7c5069f16f44f4ddbc7c9 473bff1658fa4883f83250d4c575ef5e814913d8 unknown <Email Address Witheld> 1572149781 -0400	commit: Fixed syntax error
+473bff1658fa4883f83250d4c575ef5e814913d8 f8083ece4a093678934233ec566e64cc23cd8784 unknown <Email Address Witheld> 1572150265 -0400	commit: Improved Form Error Handling
+f8083ece4a093678934233ec566e64cc23cd8784 0e506494b5a2e45c9426cfd59221f4782338ad13 unknown <Email Address Witheld> 1572154644 -0400	commit: All of the register page bugs squashed; now fully functioning
+0e506494b5a2e45c9426cfd59221f4782338ad13 1530500ed08b71674cffd975219a6df06cb928f7 unknown <Email Address Witheld> 1578970963 -0500	commit: Server migration update
+1530500ed08b71674cffd975219a6df06cb928f7 042a815a19f91b69d5cc70e37418a8617a00f684 unknown <Email Address Witheld> 1579466875 -0500	commit: Major changes. Too many to list!
+042a815a19f91b69d5cc70e37418a8617a00f684 e96efc583c93eccf1d89eb4bb1c66a18d5de7af1 unknown <Email Address Witheld> 1579478612 -0500	commit: Enhanced VPN download notifications
+e96efc583c93eccf1d89eb4bb1c66a18d5de7af1 afeee4cc547f02ae0d8bb1df05a1ff72e2a5df60 unknown <Email Address Witheld> 1579588952 -0500	commit: Installation instructions for VPN, fixed major VPN server sync bug, etc.
+afeee4cc547f02ae0d8bb1df05a1ff72e2a5df60 fcf9db500fc9746150f4742b4ea0ab15ec78456f unknown <Email Address Witheld> 1579661791 -0500	commit: Added acceptable use message.
+fcf9db500fc9746150f4742b4ea0ab15ec78456f cccb99ba6f947f21ce2b47062206fbd7944f93ae unknown <Email Address Witheld> 1579903613 -0500	commit: Add network statistics to email report
+cccb99ba6f947f21ce2b47062206fbd7944f93ae cf9ce0826a730f8286e6d5814e2378ad73d9ffee unknown <Email Address Witheld> 1582694654 -0500	commit: Support for tor, cryptocurrencies, new logo, and much, much more! (views.py changes witheld until later date)
+cf9ce0826a730f8286e6d5814e2378ad73d9ffee d6d805c8f795266f5640b179a028eea14e2566b9 unknown <Email Address Witheld> 1582777689 -0500	commit: Referral Code Updates & Bug Fixes
+d6d805c8f795266f5640b179a028eea14e2566b9 2fc34e57100ab20a0d79bcdf44f408f44077b5d7 unknown <Email Address Witheld> 1582871341 -0500	commit: Major email update, usability update, and bug fixes
+2fc34e57100ab20a0d79bcdf44f408f44077b5d7 13d91a26595bb1454bb41e4d99d10c74e4b7cf5b unknown <Email Address Witheld> 1583044823 -0500	commit: Added Text Messaging Support & Lowered Plan Prices
+13d91a26595bb1454bb41e4d99d10c74e4b7cf5b 10a5e976106484bb0cc8433263b364449dd098b7 unknown <Email Address Witheld> 1583201762 -0500	commit: Texting updates & merch link added.
+10a5e976106484bb0cc8433263b364449dd098b7 fa2c87f0487a8495caecfacb2060cff203c92412 unknown <Email Address Witheld> 1583306012 -0500	commit: Home page header redesign
+```
+
+###### Priveasy's home page after the redesign:
+
+![Priveasy's redesigned home page](https://raw.githubusercontent.com/P5vc/Documentation/master/About/PriveasyV1xHomePage.PNG "Priveasy's redesigned home page")
+
 ### Priveasy v2.0
+
+
 
 ### Priveasy v3.0
 
+
+
 ## Services
 
+
+
 ## Goals
+
