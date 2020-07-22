@@ -90,7 +90,40 @@ d6d805c8f795266f5640b179a028eea14e2566b9 2fc34e57100ab20a0d79bcdf44f408f44077b5d
 
 ### Priveasy v2.0
 
+By far, Priveasy v2.0 brought the largest changes ever made to Priveasy. Although at the time, at least to the users, it may not have seemed like it: there were major changes to the website, but the same general structure of the site and the main services it offered were retained. However, the entire backend was rewritten from scratch.
 
+It had been clear for awhile that Priveasy's backend needed rewriting. It was extremely inefficient, slow, and overflowing with patch jobs to keep it technically functional, albeit poorly written. It wasn't until two major events occurred, however, that it was finally decided to scrap the backend and start over.
+
+The first major problem was with [Algo VPN](https://github.com/trailofbits/algo "Algo VPN"). Although great for small projects, it did not scale well. While working on rewriting and customizing the code to be more functional/optimized for Priveasy, flaw after flaw kept appearing. Algo was extremely bloated, introducing a massive amount of overhead that Priveasy did not want to have to take on (to no fault of Algo: Priveasy simply wasn't interested in providing all the same features as Algo). It also revealed itself to be somewhat patchwork: the exact thing that Priveasy was trying to correct. Finally, utilizing Algo with more than a few dozen clients was not realistic at all. It was found out the hard way that Algo's IP address allocation and firewall rules quickly break down—without any warning—when a certain number of clients is reached. Again, this is in no way Algo's fault: it's only meant for personal servers, not for servers looking to maintain many different profiles. However, it was apparent that a custom solution would be required.
+
+The second major problem was more general. Priveasy was looking into buying the rights to an extremely short URL, to use for a new privacy service. However, the backend, as it was written, only updated once every three hours: no one would want to have to wait three hours after generating a shortened URL, to use it. As a matter of fact, this problem applied to all of our other services: no one would want to wait 24 hours to be able to download their VPN credentials after paying for them; no one would want to wait three hours for the email forwarder they created to start working, etc. Therefore, the task of rewriting the backend to properly utilize a powerful database was undertaken.
+
+Because all of the changes being made required modifying almost everything, the decision was made to start afresh, and rebuild from scratch. A new repository was initialized, and Priveasy started over. Once the base rebuild was done, the first few commits were made, and Priveasy 2.0 was officially in production.
+
+###### Log of major commits made to Priveasy v1.x:
+
+```
+0000000000000000000000000000000000000000 cb9b4d657e893b4c021d48b568e79713298567fc nonroot <Email Address Witheld> 1584941383 -0400	commit (initial): Initial Priveasy Commit
+cb9b4d657e893b4c021d48b568e79713298567fc 2423c4123a16a16a2965b8399eebd0f191eda7ac unknown <Email Address Witheld> 1586383103 -0400	commit: Website Shell Added
+2423c4123a16a16a2965b8399eebd0f191eda7ac 7546be3732eda744bad80cbf648a3ced0727c999 unknown <Email Address Witheld> 1589332153 -0400	commit: Website Fully Functional; Initial Public State
+7546be3732eda744bad80cbf648a3ced0727c999 5ea654798fa358b717164424b1ae8db691196007 unknown <Email Address Witheld> 1589857526 -0400	commit: Added Legal Documentation and Support for Discount Codes
+5ea654798fa358b717164424b1ae8db691196007 7a358c1523834e2eac1c74d6388b7339257d5e87 unknown <Email Address Witheld> 1589930482 -0400	commit: Bug Fix
+7a358c1523834e2eac1c74d6388b7339257d5e87 96996645e17783b5c9f48080a64ae5b02d535164 unknown <Email Address Witheld> 1590444234 -0400	commit: Added Professional Email and Updated Admin Site (Added Budget Calculator)
+96996645e17783b5c9f48080a64ae5b02d535164 36dd8619f7a9107dad23d3d37a33f962f092e1a6 unknown <Email Address Witheld> 1590548950 -0400	commit: Added HTML, Branded Emails
+36dd8619f7a9107dad23d3d37a33f962f092e1a6 a47469545de584a3f5d242815da13d8afa68e718 unknown <Email Address Witheld> 1591081721 -0400	commit: Added Records/Email Server & Bug Fixes
+a47469545de584a3f5d242815da13d8afa68e718 d336f4489d779c020f5d8f931b570a225211e778 unknown <Email Address Witheld> 1591122354 -0400	commit: Added Improved Email Functionality
+d336f4489d779c020f5d8f931b570a225211e778 722efd069a9c192cf091c3008d913f0ce91f3eaf unknown <Email Address Witheld> 1591825646 -0400	commit: Complete VPN Overhaul
+722efd069a9c192cf091c3008d913f0ce91f3eaf 99b0eeed3b152f8614167c2c99442ccb472f0d54 unknown <Email Address Witheld> 1592207850 -0400	commit: Custom 404 Page
+99b0eeed3b152f8614167c2c99442ccb472f0d54 552c26ca5631d0492f9a739fd824477aa795ea9e unknown <Email Address Witheld> 1592209658 -0400	commit: Extended Page View Stats
+552c26ca5631d0492f9a739fd824477aa795ea9e eb04b70605865803c754ddffe394f27a6fb004eb unknown <Email Address Witheld> 1592966405 -0400	commit: Add Social Media Creds, Enable Hidden Service Over HTTP, & Other Minor Changes
+eb04b70605865803c754ddffe394f27a6fb004eb 37a9d0940d745fce6b7ec3accb85ff1f7f6c1927 unknown <Email Address Witheld> 1593076107 -0400	commit: Converted Line Endings (Default Changed From CRLF to LF)
+37a9d0940d745fce6b7ec3accb85ff1f7f6c1927 7b331d6f481a9f40397e8f3713edd2f74bb939a8 unknown <Email Address Witheld> 1593076136 -0400	commit: Made Payment Settings Page Easier to Access
+7b331d6f481a9f40397e8f3713edd2f74bb939a8 a6e1e8c42099d1fad282d643dccba3a935ab93d0 unknown <Email Address Witheld> 1594061840 -0400	commit: Added Support for Accepting Payments in Zcash
+a6e1e8c42099d1fad282d643dccba3a935ab93d0 e8535697a595e6cb8e45a97f24c2fb0162d549f5 unknown <Email Address Witheld> 1594170412 -0400	commit: Fixed alignment/text bugs on account page
+e8535697a595e6cb8e45a97f24c2fb0162d549f5 a61d97ede5eb170d61b39142ee60ef9919d56a2e unknown <Email Address Witheld> 1594247081 -0400	commit: Added QR codes to cryptopayment page, as well as view stats
+a61d97ede5eb170d61b39142ee60ef9919d56a2e ff86216475bfb76ee5bb72d4ad11a8508b196253 unknown <Email Address Witheld> 1594268175 -0400	commit: Added payment amount estimates on cryptopayment page, username case insensitivity, and further Zcash payment checks
+ff86216475bfb76ee5bb72d4ad11a8508b196253 fe157c1f0e09ec7654931bb9c87344d911a9b63d unknown <Email Address Witheld> 1595040360 -0400	commit: Added Onion-Location header and more credentials
+```
 
 ### Priveasy v3.0
 
