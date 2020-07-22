@@ -157,7 +157,7 @@ The second major problem was more general. Priveasy was looking into buying the 
 
 Because all of the changes being made required modifying almost everything, the decision was made to start afresh, and rebuild from scratch. A new repository was initialized on `Monday, March 23, 2020 1:29:43 AM GMT-04:00 DST`, and Priveasy started over. Once the base rebuild was done, the first few commits were made, and Priveasy 2.0 was officially in production.
 
-###### Log of major commits made to Priveasy v1.x:
+###### Log of major commits made to Priveasy v2.0:
 
 ```
 0000000000000000000000000000000000000000 cb9b4d657e893b4c021d48b568e79713298567fc nonroot <Email Address Witheld> 1584941383 -0400	commit (initial): Initial Priveasy Commit
