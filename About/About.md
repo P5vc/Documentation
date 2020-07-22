@@ -3,14 +3,20 @@
 ### Table of Contents
 
 - [Overview](#overview "Overview")
+- [Services](#services "Services")
+  - [Web Application](#web-application "Web Application")
+  - [VPN](#vpn "VPN")
+  - [Burner Email](#burner-email "Burner Email")
+  - [Burner Text Messaging](#burner-text-messaging "Burner Text Messaging")
+  - [URL Shortener](#url-shortener "URL Shortener")
+  - [Pastebin](#pastebin "Pastebin")
 - [History](#history "History")
   - [Priveasy v0.0](#priveasy-v00 "Priveasy v0.0")
   - [Priveasy v1.0](#priveasy-v10 "Priveasy v1.0")
   - [Priveasy v1.x](#priveasy-v1x "Priveasy v1.x")
   - [Priveasy v2.0](#priveasy-v20 "Priveasy v2.0")
   - [Priveasy v3.0](priveasy-v30 "Priveasy v3.0")
-- [Services](#services "Services")
-- [Goals](#goals "Goals")
+- [Roadmap](#roadmap "Roadmap")
 
 ## Overview
 
@@ -23,6 +29,49 @@ Anyone is welcome to use Priveasy's services. Our goal is to guard everyone's ri
 Although it is true that Priveasy charges its users for plans, we do not take any profit. All of our expenditures are meticulously documented, and 100% of the money goes right back into providing our services. That is why we are able to provide our services at such low costs: we have almost no overhead, no greedy executives, and many, wonderful supporters and contributors.
 
 At no point will you find any trackers, cookies, analytics, etc. on our website or embedded in our services. Priveasy takes your privacy seriously, and will go to great lengths to protect it. Don't believe us? Continue reading! You have access to our entire codebase right here at your fingertips. You will never find a single piece of code running on our servers that is not open source, and readily available for you to inspect.
+
+## Services
+
+### Web Application
+
+##### Details (Features; Benefits; Uses):
+
+- Our website is truly dedicated to user privacy. Unlike nearly every other website out there (including those of major VPN providers, who claim to guard your privacy), our website does not use any sort of 3rd. party analytics, trackers, cookies, etc.
+- We use an audited, state of the art authentication backend to ensure the confidentiality of our users' data. We use Argon2 to hash users' passwords, which is universally considered to be the best and most secure.
+- Our website enables HSTS.
+- Our website is also available as an onion service (with the onion location header enabled).
+- We're built with [Django](https://www.djangoproject.com/ "Django") which comes with a whole host of security assurances (for example, mandatory cross-site request forgery tokens).
+- We accept payments in privacy coins, such as Zcash.
+
+### VPN
+
+##### Details (Features; Benefits; Uses):
+
+
+
+### Burner Email
+
+##### Details (Features; Benefits; Uses):
+
+
+
+### Burner Text Messaging
+
+##### Details (Features; Benefits; Uses):
+
+
+
+### URL Shortener
+
+##### Details (Features; Benefits; Uses):
+
+
+
+### Pastebin
+
+##### Details (Features; Benefits; Uses):
+
+
 
 ## History
 
@@ -129,9 +178,4 @@ ff86216475bfb76ee5bb72d4ad11a8508b196253 fe157c1f0e09ec7654931bb9c87344d911a9b63
 
 Priveasy v3.0's story has not yet been told. Priveasy v3.0 is by far the most ambitious project in the history of Priveasy. Priveasy v3.0 is when we dedicate ourselves to the good of humanity, and come together to build a community, and write history together. Priveasy v3.0 is when I take all of my precious code, all of my hard work, and lay it bare, for the world to see. Priveasy v3.0 is when we acquire our own servers, and work together to build something bigger than us all. Priveasy v3.0 is still in the works, but when it's done, it will be historic.
 
-## Services
-
-
-
-## Goals
-
+## Roadmap
