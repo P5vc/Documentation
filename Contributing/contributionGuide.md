@@ -21,16 +21,17 @@ Everyone! Priveasy is open to all kinds of contributions from all kinds of peopl
 
 ## What to Contribute
 
-##### Here are some ideas for ways in which you may be able to contribute:
+#### Here are some ideas for ways in which you may be able to contribute:
 
 - Did you notice a bug or have an issue while using any of Priveasy's services? Open an issue and let us know!
 - Did you find a security flaw, or know of a way in which our security could be improved? If the flaw/recommendation is minor, open an issue! If it's more serious, send us an email! You may be entitled to a bug bounty reward!
 - Do you have an idea for a new feature or major change that could help improve Priveasy (make it prettier, more efficient, more secure, etc.)? Make a pull request! We'd love to see it!
 - Do you run a small (or large) business that would like to donate some of its resources towards helping us (i.e. print Priveasy stickers and donate to us all of the profits, offer server space or other free resources, etc.)? Thank you! Email us!
 - Are you a lawyer or do you know a lawyer that would be willing to help us pro bono in the event of a legal dispute? Wonderful! Email us!
+- Are you a social media influencer who would be willing to talk about us on the internet, or a reporter who would like to write an article about us? Feel free to do so! If you ever have any questions, don't hesitate to reach out!
 - Anything else? Don't hesitate to reach out, using whatever means work best for you!
 
-##### Outstanding Contribution Requests:
+#### Outstanding Contribution Requests:
 
 This list includes up-to-date contribution requests: things that we currently need help with.
 
