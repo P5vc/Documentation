@@ -98,7 +98,7 @@ The first major problem was with [Algo VPN](https://github.com/trailofbits/algo 
 
 The second major problem was more general. Priveasy was looking into buying the rights to an extremely short URL, to use for a new privacy service. However, the backend, as it was written, only updated once every three hours: no one would want to have to wait three hours after generating a shortened URL, to use it. As a matter of fact, this problem applied to all of our other services: no one would want to wait 24 hours to be able to download their VPN credentials after paying for them; no one would want to wait three hours for the email forwarder they created to start working, etc. Therefore, the task of rewriting the backend to properly utilize a powerful database was undertaken.
 
-Because all of the changes being made required modifying almost everything, the decision was made to start afresh, and rebuild from scratch. A new repository was initialized, and Priveasy started over. Once the base rebuild was done, the first few commits were made, and Priveasy 2.0 was officially in production.
+Because all of the changes being made required modifying almost everything, the decision was made to start afresh, and rebuild from scratch. A new repository was initialized on `Monday, March 23, 2020 1:29:43 AM GMT-04:00 DST`, and Priveasy started over. Once the base rebuild was done, the first few commits were made, and Priveasy 2.0 was officially in production.
 
 ###### Log of major commits made to Priveasy v1.x:
 
@@ -127,7 +127,7 @@ ff86216475bfb76ee5bb72d4ad11a8508b196253 fe157c1f0e09ec7654931bb9c87344d911a9b63
 
 ### Priveasy v3.0
 
-
+Priveasy v3.0's story has not yet been told. Priveasy v3.0 is by far the most ambitious project in the history of Priveasy. Priveasy v3.0 is when we dedicate ourselves to the good of humanity, and come together to build a community, and write history together. Priveasy v3.0 is when I take all of my precious code, all of my hard work, and lay it bare, for the world to see. Priveasy v3.0 is when we acquire our own servers, and work together to build something bigger than us all. Priveasy v3.0 is still in the works, but when it's done, it will be historic.
 
 ## Services
 
