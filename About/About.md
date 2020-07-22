@@ -61,25 +61,29 @@ At no point will you find any trackers, cookies, analytics, etc. on our website 
 
 ##### Details (Features; Benefits; Uses):
 
-
+- We offer both burner email forwarding, and burner email sending.
+  - Our burner email forwarding feature allocates you a whole bunch of "burner" email addresses, at our domain. A forwarding address is of the format: `example@fwd.priveasy.org`. This forwarding address will forward any email sent to it, to the "recipient" email address that you configure within your account. This allows you to give out our email address instead of your own, while still receiving any emails sent to it as if they were sent directly to your normal inbox. Should the person/company you gave our email to get hacked, sell your information, or start spamming you, you can simply delete the forwarder from your account, and have peace of mind.
+  - Our burner email sending follows the same principles as the burner email forwarding service: it allows you to send email from a "burner" email account, other than your own. Sent burner emails can take either of the following formats: `example@fwd.priveasy.org` or `example@burn.priveasy.org`.
+- The Priveasy servers in charge of handling burner email sending and receiving are specifically set up without an MTA. What does this mean? It means that no matter what, whether you are sending an email or one is being forwarded to you, the contents of that email will never touch our hard drives.
 
 ### Burner Text Messaging
 
 ##### Details (Features; Benefits; Uses):
 
-
+- We offer burner text message sending. This service allows you to send a text message to whomever you desire, from our phone number, instead of your own.
+  - Please note: We have to use a 3rd-party service to send text messages. However, that 3rd-party does not get any access whatsoever to your account information.
 
 ### URL Shortener
 
 ##### Details (Features; Benefits; Uses):
 
-
+- Our URL shortener allows you to take large URLs, and reduce them to the size of our domain name: Priveasy.org (12 characters). A shortened URL takes the form: `P5.vc/short`. You can then share this URL, and see from your dashboard how many times it was clicked. If at any point you don't want the destination to be accessible anymore, you can simply delete the shortener from your dashboard.
 
 ### Pastebin
 
 ##### Details (Features; Benefits; Uses):
 
-
+- We offer a pastebin so you can quickly and easily save notes, code snippets, or any other important data. All pastes are saved privately by default, but come with the option to share them publicly, should you desire to do so.
 
 ## History
 
@@ -157,7 +161,7 @@ The second major problem was more general. Priveasy was looking into buying the 
 
 Because all of the changes being made required modifying almost everything, the decision was made to start afresh, and rebuild from scratch. A new repository was initialized on `Monday, March 23, 2020 1:29:43 AM GMT-04:00 DST`, and Priveasy started over. Once the base rebuild was done, the first few commits were made, and Priveasy 2.0 was officially in production.
 
-###### Log of major commits made to Priveasy v2.0:
+###### Log of major commits made to Priveasy v1.x:
 
 ```
 0000000000000000000000000000000000000000 cb9b4d657e893b4c021d48b568e79713298567fc nonroot <Email Address Witheld> 1584941383 -0400	commit (initial): Initial Priveasy Commit
@@ -187,3 +191,5 @@ ff86216475bfb76ee5bb72d4ad11a8508b196253 fe157c1f0e09ec7654931bb9c87344d911a9b63
 Priveasy v3.0's story has not yet been told. Priveasy v3.0 is by far the most ambitious project in the history of Priveasy. Priveasy v3.0 is when we dedicate ourselves to the good of humanity, and come together to build a community, and write history together. Priveasy v3.0 is when I take all of my precious code, all of my hard work, and lay it bare, for the world to see. Priveasy v3.0 is when we acquire our own servers, and work together to build something bigger than us all. Priveasy v3.0 is still in the works, but when it's done, it will be historic.
 
 ## Roadmap
+
+- Crowdfund to acquire our own, physical servers, instead of renting VPS's from 3rd-party hosting providers.
