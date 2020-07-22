@@ -47,7 +47,15 @@ At no point will you find any trackers, cookies, analytics, etc. on our website 
 
 ##### Details (Features; Benefits; Uses):
 
-
+- Encrypts all of your internet traffic, including DNS queries.
+- Prevents your network administrator, ISP, government, etc. from easily logging your browsing activities, and blocking specific sites or services.
+  - Note: You should never use a VPN with the goal of becoming anonymous. VPNs do not make you truly anonymous, especially against a state-sponsored organization. If you are looking for anonymity, then [Tor](https://www.torproject.org/ "Tor") will take you farther than a VPN will.
+- We have no access to any form of VPN logs.
+- We offer a shadowsocks proxy (with optional v2ray plugin), allowing people in oppressed/restrictive countries/locations to safely and discretely access the open internet
+- The main VPN protocol we use is WireGuard. WireGuard is known for being fast, secure, and open source, and is built right into the Linux kernel.
+  - Our implementation of WireGuard takes advantage of its preshared key (PSK) functionality, meaning that your traffic is both symmetrically and asymmetrically encrypted, adding quantum resistance.
+- Every user is reserved their own, private LAN, allowing their connected devices to communicate with each other locally, as if they were all connected to the same, home network.
+- We have no hardcoded bandwidth or traffic limitations
 
 ### Burner Email
 
