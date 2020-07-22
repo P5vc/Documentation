@@ -7,7 +7,7 @@
   - [About Us](https://github.com/P5vc/Documentation/blob/master/About/About.md "About Us")
   - [Our Supporters](https://github.com/P5vc/Documentation/blob/master/About/Supporters.md "Our Supporters")
 - Contributing
-  - [How to Contribute](https://github.com/P5vc/Documentation/blob/master/Contributing/HowToContribute.md "How to Contribute")
+  - [Contribution Guide](https://github.com/P5vc/Documentation/blob/master/Contributing/contributionGuide.md "Contribution Guide")
   - [Code Standards](https://github.com/P5vc/Documentation/blob/master/Contributing/CodeStandards.md "Code Standards")
 - Resources
   - [Logo](https://github.com/P5vc/Documentation/tree/master/Logo "Logo")
