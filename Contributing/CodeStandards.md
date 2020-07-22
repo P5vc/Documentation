@@ -12,13 +12,7 @@ Below you will find a rough outline as to our coding conventions, and specific t
 - Avoid using anything but letters in variable/function/class names whenever practical
 - Only comment major blocks of code, or areas were unusual or easily misinterpreted code is used
 - Always use single quotes (') instead of double quotes (") around strings
-- Leave two empty lines after between functions, and three between classes. Use one empty line to separate non-directly-related blocks of code
-- Always overuse parentheses to improve readability, and always enclose boolean expressions in parentheses (i.e. in if statements)
-- Only expand lists, dictionaries, etc. over multiple lines the first time they are declared, and only if they will be used over and over again and are of some significant length and importance to the code
-- We care more about efficiency than readability, but only to a certain extent. Use good judgment when deciding if the efficiency to readability trade-off is worth it, when writing code
-- If there's a simple way to write the code without requiring the use of a dependency not built into the python standard library, write it that way... even if it takes up a few more lines or a bit more time to write
-- Only import what you need
-- Space out everything
+- Space out everything:
 
 Right:
 
@@ -43,3 +37,12 @@ else:
 	randomString="123Oneabc"
 	print(randomString[3:6], " is equal to:\t", exampleDict["One"], sep="")
 ```
+
+- Leave two empty lines after between functions, and three between classes. Use one empty line to separate non-directly-related blocks of code
+- Always overuse parentheses to improve readability, and always enclose boolean expressions in parentheses (i.e. in if statements)
+- Only expand lists, dictionaries, etc. over multiple lines the first time they are declared, and only if they will be used over and over again and are of some significant length and importance to the code
+- We care more about efficiency than readability, but only to a certain extent. Use good judgment when deciding if the efficiency to readability trade-off is worth it, when writing code
+- If there's a simple way to write the code without requiring the use of a dependency not built into the python standard library, write it that way... even if it takes up a few more lines or a bit more time to write
+- Only import what you need
+- Make your lines as long as you need (without being impractical about it)
+- Always use tabs instead of spaces
