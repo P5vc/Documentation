@@ -29,16 +29,15 @@ else:
 Wrong:
 
 ```python
-exampleDict={"Zero": 0, "One": 1}
-
-if exampleDict["Zero"]:
-	print("This should not be printed!")
+example_dictionary={"Zero": 0, "One": 1}
+if example_dictionary["Zero"]:
+    print("This should not be printed!")
 else:
-	randomString="123Oneabc"
-	print(randomString[3:6], " is equal to:\t", exampleDict["One"], sep="")
+    random_string="123Oneabc"
+    print(random_string[3:6], " is equal to:\t", example_dictionary["One"], sep="")
 ```
 
-- Leave two empty lines after between functions, and three between classes. Use one empty line to separate non-directly-related blocks of code
+- Leave two empty lines after/between functions, and three between classes. Use one empty line to separate non-directly-related blocks of code
 - Always overuse parentheses to improve readability, and always enclose boolean expressions in parentheses (i.e. in if statements)
 - Only expand lists, dictionaries, etc. over multiple lines the first time they are declared, and only if they will be used over and over again and are of some significant length and importance to the code
 - We care more about efficiency than readability, but only to a certain extent. Use good judgment when deciding if the efficiency to readability trade-off is worth it, when writing code
@@ -46,3 +45,4 @@ else:
 - Only import what you need
 - Make your lines as long as you need (without being impractical about it)
 - Always use tabs instead of spaces
+- Never leave trailing spaces/tabs at the end of a line
