@@ -8,6 +8,6 @@
   - [Our Supporters](https://github.com/P5vc/Documentation/blob/master/About/Supporters.md "Our Supporters")
 - Contributing
   - [Contribution Guide](https://github.com/P5vc/Documentation/blob/master/Contributing/contributionGuide.md "Contribution Guide")
-  - [Code Standards](https://github.com/P5vc/Documentation/blob/master/Contributing/CodeStandards.md "Code Standards")
+  - [Code Standards](https://github.com/P5vc/Documentation/blob/master/Contributing/codeStandards.md "Code Standards")
 - Resources
   - [Logo](https://github.com/P5vc/Documentation/tree/master/Logo "Logo")
