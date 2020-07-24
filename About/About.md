@@ -16,6 +16,7 @@
   - [Priveasy v1.x](#priveasy-v1x "Priveasy v1.x")
   - [Priveasy v2.0](#priveasy-v20 "Priveasy v2.0")
   - [Priveasy v3.0](priveasy-v30 "Priveasy v3.0")
+- [Administration](#administration "Administration")
 - [Roadmap](#roadmap "Roadmap")
 
 ## Overview
@@ -190,6 +191,21 @@ ff86216475bfb76ee5bb72d4ad11a8508b196253 fe157c1f0e09ec7654931bb9c87344d911a9b63
 
 Priveasy v3.0's story has not yet been told. Priveasy v3.0 is by far the most ambitious project in the history of Priveasy. Priveasy v3.0 is when we dedicate ourselves to the good of humanity, and come together to build a community, and write history together. Priveasy v3.0 is when I take all of my precious code, all of my hard work, and lay it bare, for the world to see. Priveasy v3.0 is when we acquire our own servers, and work together to build something bigger than us all. Priveasy v3.0 is still in the works, but when it's done, it will be historic.
 
+## Administration
+
+> This section provides an overview of the administrative aspects of Priveasy. For transparency and trust reasons, we felt that it was important to include this section. However, we cannot provide exact details here, in order to protect the identities of those invested in our cause, as well as to protect information as to our exact server locations. If you would like access to greater information, please contact us directly.
+
+> Please note: major contributors to Priveasy (people who have worked with us for awhile yet are not directly affiliated with us or part of our core team) are given access to this extra information by default. This allows us to have third parties who are active and trusted by the open source community vouch for us, and our administrative process. If you would like to be one of these third parties, you are more than welcome to start contributing to our code, and we'd love to have you! If for any reason you think that you have been contributing to us for awhile, and we've accidentally overlooked you, please reach out and let us know!
+
+Priveasy is currently run as an unincorporated organization. We have a few people dedicated to our cause who handle the administrative aspects of Priveasy, as well as maintain consistent development.
+
+Priveasy currently calculates its price per plan by taking the exact amount it costs us to run these services, multiplying that amount by 1.5, and then dividing the final amount by the number of users we have.
+
+The extra 50% we take goes towards paying our developers and administrative staff, advertising, getting third party security audits, covering legal fees, maintaining bug bounties, etc. As Priveasy grows and we gain more users, we plan to lower this percentage significantly.
+
 ## Roadmap
 
-- Crowdfund to acquire our own, physical servers, instead of renting VPS's from 3rd-party hosting providers.
+- Finish transferring all of our code to GitHub, and build a fully-functional, open source release, to migrate our servers to
+- Get independent security audits, and build our community
+- Make Priveasy more accessible: build our own (open source) mobile applications, instead of relying on the WireGuard application.
+- Crowdfund to acquire our own, physical servers, instead of renting VPS's from 3rd-party hosting providers
