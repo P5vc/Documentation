@@ -16,7 +16,7 @@ Below you will find a rough outline as to our coding conventions, and specific t
 - Never unpack lists or dictionaries over multiple lines, unless the following apply:
   - The object is to be referenced many times, and it is of significant importance that a programmer be knowledgeable of it
   - It is the initial declaration of the object
-    - The declaration must be made a separate, initial block, even if it must be made redundantly
+    - The declaration must be made in a separate, proceeding block, even if doing so is redundant
 - Care more about efficiency than readability, but only when a valid, noticeable impact would be made, or could be foreseeably made in the future. Use good judgment when deciding if the efficiency to readability trade-off is worth it
 - Avoid dependencies whenever reasonable; if you must rely on a dependency, only import what you need
 - Do not worry about line length
