@@ -2,7 +2,7 @@
 
 ## Major Contributors
 
-|Name|Message|
+|Name|Message/Roll|
 | ------------ | ------------ |
 |Noah|Priveasy Founder|
 
