@@ -8,8 +8,8 @@
 
 ## Financial Supporters
 
-|Logo & Link|Name/Brand|Message|
-| ------------ | ------------ | ------------ |
+|Logo & Link|Name/Brand|Message|Amount|
+| ------------ | ------------ | ------------ | ------------ |
 
 ## Influential Supporters
 
