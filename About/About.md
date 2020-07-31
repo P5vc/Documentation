@@ -66,7 +66,7 @@ At no point will you find any trackers, cookies, analytics, etc. on our website 
 - We offer both burner email forwarding, and burner email sending.
   - Our burner email forwarding feature allocates you a whole bunch of "burner" email addresses, at our domain. A forwarding address is of the format: `example@fwd.priveasy.org`. This forwarding address will forward any email sent to it, to the "recipient" email address that you configure within your account. This allows you to give out our email address instead of your own, while still receiving any emails sent to it as if they were sent directly to your normal inbox. Should the person/company you gave our email to get hacked, sell your information, or start spamming you, you can simply delete the forwarder from your account, and have peace of mind.
   - Our burner email sending follows the same principles as the burner email forwarding service: it allows you to send email from a "burner" email account, other than your own. Sent burner emails can take either of the following formats: `example@fwd.priveasy.org` or `example@burn.priveasy.org`.
-- The Priveasy servers in charge of handling burner email sending and receiving are specifically set up without an MTA. What does this mean? It means that no matter what, whether you are sending an email or one is being forwarded to you, the contents of that email will never touch our hard drives.
+- The Priveasy servers in charge of handling burner email sending and receiving are specifically set up using postfix virtual aliases. What does this mean? It means that no matter what, whether you are sending an email or one is being forwarded to you, the contents of that email will never touch our hard drives.
 
 ### Burner Text Messaging
 
