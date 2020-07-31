@@ -43,6 +43,7 @@ At no point will you find any trackers, cookies, analytics, etc. on our website 
 - Our website is also available as an onion service (with the onion location header enabled).
 - We're built with [Django](https://www.djangoproject.com/ "Django") which comes with a whole host of security assurances (for example, mandatory cross-site request forgery tokens).
 - We accept payments in privacy coins, such as Zcash.
+- Any inactive accounts (accounts without an active plan and which have not been logged-in to for a period of 30 days or more) are automatically deleted, along with all their associated data.
 
 ### VPN
 
@@ -204,8 +205,10 @@ Priveasy currently calculates its price per plan by taking the exact amount it c
 The extra 50% we take goes towards paying our developers and administrative staff, advertising, getting third party security audits, covering legal fees, maintaining bug bounties, etc. As Priveasy grows and we gain more users, we plan to lower this percentage significantly.
 
 ## Roadmap
-
-- Finish transferring all of our code to GitHub, and build a fully-functional, open source release, to migrate our servers to
-- Get independent security audits, and build our community
-- Make Priveasy more accessible: build our own (open source) mobile applications, instead of relying on the WireGuard application.
+Some of our current goals (not in any order):
+- Work on building a stronger community
+- Develop a Priveasy mobile application
+- Create an open source "records" server to handle administrative email, documents, etc.
+- Add support for reserved burner phone numbers per account (to allow text messaging sending and receiving/forwarding)
+- Add 2FA
 - Crowdfund to acquire our own, physical servers, instead of renting VPS's from 3rd-party hosting providers
