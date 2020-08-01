@@ -208,7 +208,6 @@ The extra 50% we take goes towards paying our developers and administrative staf
 Some of our current goals (not in any order):
 - Work on building a stronger community
 - Develop a Priveasy mobile application
-- Create an open source "records" server to handle administrative email, documents, etc.
 - Add support for reserved burner phone numbers per account (to allow text messaging sending and receiving/forwarding)
 - Add 2FA
 - Crowdfund to acquire our own, physical servers, instead of renting VPS's from 3rd-party hosting providers
