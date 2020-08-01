@@ -27,7 +27,7 @@
 |noreply.priveasy.org|MX|10 webserver0.priveasy.org<br>20 webserver1.priveasy.org|10800|No|Simple||
 |priveasy.org|NS|ns-464.awsdns-58.com.<br>ns-1196.awsdns-21.org.<br>ns-666.awsdns-19.net.<br>ns-1771.awsdns-29.co.uk.|172800|No|Simple||
 |priveasy.org|SOA|ns-464.awsdns-58.com.<br>awsdns-hostmaster.amazon.com.<br>1 7200 900 1209600 86400|900|No|Simple||
-|dkim._domainkey.priveasy.org|TXT|v=DKIM1; p=MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEA84tCGLxM37GJm2LY9NWXCdrCSsy3Mm2AlXdVUvuNbY5wgcXdABkvaK375pAJjkxIcEU4djQ7mCsmHUKpPbcVQD43tv9qyCx9gK06UJ3Rl3Qk19eNwSG/IrvYQ8fQi5JazKmie++GWTbDiF+aVh8hs0vhJCv0FheXzENEVzx9A1WYWwfkL1VDYYa8M1SJs/HdIWI/I1C2MXxUcbR4kdeCzQtEu1BqqL+Z7ny4YobxY0t3IpmRWKyLG34txUifbciA15DfKQxR/BTgg0h0lia2pZujedK57ZEKJ/kEHeEfwH6g9hhSsTDjyNf1ke5NewNM1FgW07H2Gc0X8Wr4Q3agCwIDAQAB|3600|No|Simple||
+|dkim._domainkey.priveasy.org|TXT|v=DKIM1; p= MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEA84tCGLxM37GJm2LY9NWX CdrCSsy3Mm2AlXdVUvuNbY5wgcXdABkvaK375pAJjkxIcEU4djQ7mCsmHUKpPbcV QD43tv9qyCx9gK06UJ3Rl3Qk19eNwSG/IrvYQ8fQi5JazKmie++GWTbDiF+aVh8h s0vhJCv0FheXzENEVzx9A1WYWwfkL1VDYYa8M1SJs/HdIWI/I1C2MXxUcbR4kdeC zQtEu1BqqL+Z7ny4YobxY0t3IpmRWKyLG34txUifbciA15DfKQxR/BTgg0h0lia2 pZujedK57ZEKJ/kEHeEfwH6g9hhSsTDjyNf1ke5NewNM1FgW07H2Gc0X8Wr4Q3ag CwIDAQAB|3600|No|Simple||
 |priveasy.org|TXT|v=spf1 mx ip4:95.111.228.106/32 a:mail.priveasy.org -all|10800|No|Simple||
 |burn.priveasy.org|TXT|v=spf1 mx ip4:144.91.77.173/32 ip4:51.79.87.85/32 a:webserver0.priveasy.org a:webserver1.priveasy.org -all|10800|No|Simple||
 |fwd.priveasy.org|TXT|v=spf1 mx ip4:144.91.77.173/32 ip4:51.79.87.85/32 a:webserver0.priveasy.org a:webserver1.priveasy.org -all|10800|No|Simple||
