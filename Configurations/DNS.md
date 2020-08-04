@@ -31,6 +31,7 @@
 |mail.priveasy.org|A|95.111.228.106|10800|No|Simple||
 |webserver0.priveasy.org|A|144.91.77.173|10800|No|Simple||
 |webserver1.priveasy.org|A|51.79.87.85|10800|No|Simple||
+|www.priveasy.org|A|priveasy.org||Yes|Simple||
 |autoconfig.priveasy.org|CNAME|mail.priveasy.org|172800|No|Simple||
 |autodiscover.priveasy.org|CNAME|mail.priveasy.org|172800|No|Simple||
 |priveasy.org|MX|10 mail.priveasy.org|10800|No|Simple||
