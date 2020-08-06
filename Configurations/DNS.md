@@ -31,6 +31,7 @@
 |mail.priveasy.org|A|95.111.228.106|10800|No|Simple||
 |webserver0.priveasy.org|A|144.91.77.173|10800|No|Simple||
 |webserver1.priveasy.org|A|51.79.87.85|10800|No|Simple||
+|www.priveasy.org|A|priveasy.org||Yes|Simple||
 |autoconfig.priveasy.org|CNAME|mail.priveasy.org|172800|No|Simple||
 |autodiscover.priveasy.org|CNAME|mail.priveasy.org|172800|No|Simple||
 |priveasy.org|MX|10 mail.priveasy.org|10800|No|Simple||
@@ -44,10 +45,13 @@
 |dkim._domainkey.priveasy.org|TXT|"v=DKIM1; p=" "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEA5ZkEOUmGaca90Sp7vR+i" "phizRphdgBIX2hjFahEyMZUx/2wmMWTi6KQ+3ZZxZ84D2J102s2KZpgqgfS/aCw6" "gVQIe1SPD1Uey0NWBXzr3EeLobHKQU5Ojj2TDfGJi8lg3N8ldAyFZXdaB9ZQlXXT" "DLMkCWEgpL9xv0HoRvzIp/PHuIPAWLIvaVPYe3PiLjrD9iGYqSFnWsIBEY4ZwDDL" "XC2WBzIfDEWNuHB6YPuE2aLKOtI9b6obzp6/bt26HzPuuc6tDSi7P4WUaEHbMRte" "l20b4K8s8E6N7CW/kGn8WAZuNvFl9l3RFTyN75OslwEncyD+UyP1YF/+BjITT+0c" "DwIDAQAB"|3600|No|Simple||
 |burn.priveasy.org|TXT|"v=spf1 mx ip4:144.91.77.173/32 ip4:51.79.87.85/32 a:webserver0.priveasy.org a:webserver1.priveasy.org -all"|10800|No|Simple||
 |_dmarc.burn.priveasy.org|TXT|"v=DMARC1; p=reject; pct=100"|10800|No|Simple||
+|burn._domainkey.burn.priveasy.org|TXT|"v=DKIM1; h=sha256; k=rsa; " "p=MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAtmiRDQJZ/KlQR4K2zEjFfuwPfiOtjilRAaHQWk8GNTpJjimvD2FGgBYWxFvBecQdQaoSOEVo5QBt/B78K+Y+XBr6bQpV5vgnZvVWL0zDqAKhL4wcDZY+tloj8YL2EyeLEJqc8QB5Lke0+uOIPb7XlhGQuHFebjVSBZiKvhCtE4tMcDQbZMkSq42hFBBDk086V827qmStLEnIaL" "6k3WCxCr7XKK8///dSB+JOHbm1DPKbhXjJrzGQPA1Ousxphjlxe2oaf3YkjB4+2ov4zsCG82HLn5r0rv5J87ULqZMf/NkDPsU6wYPFvF/VYwm6DXMvJqU2kkbXghHJXKMgKP4QTQIDAQAB"|3600|No|Simple||
 |fwd.priveasy.org|TXT|"v=spf1 mx ip4:144.91.77.173/32 ip4:51.79.87.85/32 a:webserver0.priveasy.org a:webserver1.priveasy.org -all"|10800|No|Simple||
 |_dmarc.fwd.priveasy.org|TXT|"v=DMARC1; p=reject; pct=100"|10800|No|Simple||
+|fwd._domainkey.fwd.priveasy.org|TXT|"v=DKIM1; h=sha256; k=rsa; " "p=MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEA3BKefZHmhxDkr0dZuFLq4Bc7+CgV+20zdzhHtHJlsnIsOP13uXvJpyGYMnML4lyiJM6Xlb3aF/urDLR5k7LJluL1gc+T5rcGTjeiUUx4bHYGXbZ1o3rRbb48A8E1RONt7MZ9mJ9/S2FbQn1Sq8PDnaUnpzZweFUumooPxG5LDlofKwu54soJBxYhmyQdw1V5PtaFQpHa9a8SFr" "MgzbpQmZR8FVgPqaELa416rPdmw/UzPNh5tGQrdusYVOcKuQX52UEYmj1AKcuyY1KZ2HP/lF97q7rJU3I1JgXYQyZ/pffRX6QAIBQSMDrKS9mNeJr+L8mxxT2DEmO/eyprdI3UjwIDAQAB"|3600|No|Simple||
 |noreply.priveasy.org|TXT|"v=spf1 mx ip4:144.91.77.173/32 ip4:51.79.87.85/32 a:webserver0.priveasy.org a:webserver1.priveasy.org -all"|10800|No|Simple||
 |_dmarc.noreply.priveasy.org|TXT|"v=DMARC1; p=reject; pct=100"|10800|No|Simple||
+|noreply._domainkey.noreply.priveasy.org|TXT|"v=DKIM1; h=sha256; k=rsa; " "p=MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEA+LmqHQxD/SaB3cxVasZlPqEJbnyqARy1/OpbFH9V6KfSX+rGVEQqV0gHDjGH22hCkd0PgzWSOjRnpDhR/AfT1EyFqf3PFtdUxuZFwr6uDg1hzcZP10wV/h5YqLr07L/avPZ/KdvL2Kdi1DYL9n+BEZQ2VouDLDl4iQxZSUKMZF1L9BXtReHMTlrFhRdGsjjTBJekWVAhnMcLE2" "KJVls4WHCWsOni6TljcnxAxLqEdRnL1rNrIrxDQwsBxqvqNGKL8L6KudyfK6Z9TKNnq4PMFStkIb50QVX9jc9IE8xu4Is3AJYlSNVkNZw7Yczc4hL7wSXS7DKX0EP3C3pg7p3CYQIDAQAB"|3600|No|Simple||
 
 ## Reverse DNS
 
