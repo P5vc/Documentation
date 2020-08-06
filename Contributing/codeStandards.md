@@ -27,6 +27,10 @@ Below you will find a rough outline as to our coding conventions, and specific t
 - Start variable and function names with lowercase letters
 - Start class names with uppercase letters
 - Names should only contain letters, whenever practical
+- Use these rules when defining constant/global variables, especially if they are meant to be edited directly in-line by a user
+  - Use snake_case over camelCase
+  - Capitalize every character
+  - Define all variables at the beginning of the file (even if redundant), and have them clearly offset by spacing, comments, or both
 
 ### Punctuation
 
