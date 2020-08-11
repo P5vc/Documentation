@@ -19,7 +19,7 @@
 |p5.vc|SOA|ns-1203.awsdns-22.org.<br>awsdns-hostmaster.amazon.com.<br>1 7200 900 1209600 86400|900|No|Simple||
 |p5.vc|TXT|"v=spf1 mx a ip4:95.111.228.106/32 include:mail.priveasy.org -all"|10800|No|Simple||
 |_dmarc.p5.vc|TXT|"v=DMARC1; p=reject; pct=100"|10800|No|Simple||
-|dkim._domainkey.p5.vc|TXT|"v=DKIM1; p=" "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAv9R4IlEitEo4pyyir8G2" "IpTaRR3pxjkeo6DNU0eg/3S9rDZrblhCE43N9nBPrMLAuK5HvkCHS339ZCAe0JJm" "CCL9sdwuZGq+y+NU8hXf8NMQaj0LdtDXcpD7op21/nYtdV9vPGNhmKib2lEcEv4I" "JAMIGzsJa+OXvNYr/uycnmvpSUB1pBnkhmFcBRv542Si3XAG2oSUKSpxvgTnVHb+" "YLJBPS1W9QPbKtjJ3SVSOAdtHTHLyi567FX1pnJ83lUQPmeoeyx9eFb15t2Qpcb+" "kJTjFyXbgsWEjefLKR/CHSZa+IOctWm6pKCcnjz7Gs3F3Nh6om78XxvqY41Hiiz4" "BwIDAQAB"|3600|No|Simple||
+|dkim._domainkey.p5.vc|TXT|"v=DKIM1; p=" "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAoLgiU64/jJQcKeUgaJMT" "07RQuA3zC4ZDDU26hVQHGVwHI4AbuTkZUEe3DOWoP52iw5lCK+sB0h6tjqx7JtLj" "sXWJjwQ2VMLC23llG9+AAdLGlsi9vYPfvwWkW/zkndnD2FynD/R8ej0rh0c37EFO" "IvQ39dNJVj0AcjkQMcKZPBj0a5Sl1NHpZHKgVK+0z+ucR7fJRPwilGj9Mvk1qTwU" "hbOSXeoz5ak4BMTgM4vZC0/seE0LvAGF46yZyny+rrc6rGXhyeUfW91K+CXfF1CT" "0eeNq3XuEM6Fse9p8b0OQquetO8RITaO6kGFr3iradNgpJkpr79fmh4XreNoznvD" "0QIDAQAB"|3600|No|Simple||
 
 ## Hosted Zone 2 (Priveasy.org)
 
@@ -42,7 +42,7 @@
 |priveasy.org|SOA|ns-464.awsdns-58.com.<br>awsdns-hostmaster.amazon.com.<br>1 7200 900 1209600 86400|900|No|Simple||
 |priveasy.org|TXT|"v=spf1 mx ip4:95.111.228.106/32 a:mail.priveasy.org -all"|10800|No|Simple||
 |_dmarc.priveasy.org|TXT|"v=DMARC1; p=reject; pct=100"|10800|No|Simple||
-|dkim._domainkey.priveasy.org|TXT|"v=DKIM1; p=" "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEA5ZkEOUmGaca90Sp7vR+i" "phizRphdgBIX2hjFahEyMZUx/2wmMWTi6KQ+3ZZxZ84D2J102s2KZpgqgfS/aCw6" "gVQIe1SPD1Uey0NWBXzr3EeLobHKQU5Ojj2TDfGJi8lg3N8ldAyFZXdaB9ZQlXXT" "DLMkCWEgpL9xv0HoRvzIp/PHuIPAWLIvaVPYe3PiLjrD9iGYqSFnWsIBEY4ZwDDL" "XC2WBzIfDEWNuHB6YPuE2aLKOtI9b6obzp6/bt26HzPuuc6tDSi7P4WUaEHbMRte" "l20b4K8s8E6N7CW/kGn8WAZuNvFl9l3RFTyN75OslwEncyD+UyP1YF/+BjITT+0c" "DwIDAQAB"|3600|No|Simple||
+|dkim._domainkey.priveasy.org|TXT|"v=DKIM1; p=" "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAwigNdV1jHCPvZ5UraLd1" "Fj/WZn1378Yk2lriJivVqNTYlKoBesk3Quoqw3r72CGlHXxT188AfHrLGgoFaqaF" "w3NB5r5acOGE7RgeNE5Hm+pQZEwbDME0cx242RA8P1yrQrMNGf/lmZ4Xa44MTjeK" "AWtyyUUQEpIUjtllCdWeTqrwtz8qHR8jQivJWzqWExIQQ+VwzVQKZpiYcOwaRtEP" "5SeHw0VUG1gQKWw5eZ2k4YkHrn3gNXVG3+YyvGGCYJU1rWQQ1uqhXhWDWy5TPtfK" "Y9AogXNoir+1i8V3uq6HnHu6PiM8CB6NCDIkUVeqQax3DbEirUkuPV5IO8zWYis9" "vwIDAQAB"|3600|No|Simple||
 |burn.priveasy.org|TXT|"v=spf1 mx ip4:144.91.77.173/32 ip4:51.79.87.85/32 a:webserver0.priveasy.org a:webserver1.priveasy.org -all"|10800|No|Simple||
 |_dmarc.burn.priveasy.org|TXT|"v=DMARC1; p=reject; pct=100"|10800|No|Simple||
 |burn._domainkey.burn.priveasy.org|TXT|"v=DKIM1; h=sha256; k=rsa; " "p=MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAtmiRDQJZ/KlQR4K2zEjFfuwPfiOtjilRAaHQWk8GNTpJjimvD2FGgBYWxFvBecQdQaoSOEVo5QBt/B78K+Y+XBr6bQpV5vgnZvVWL0zDqAKhL4wcDZY+tloj8YL2EyeLEJqc8QB5Lke0+uOIPb7XlhGQuHFebjVSBZiKvhCtE4tMcDQbZMkSq42hFBBDk086V827qmStLEnIaL" "6k3WCxCr7XKK8///dSB+JOHbm1DPKbhXjJrzGQPA1Ousxphjlxe2oaf3YkjB4+2ov4zsCG82HLn5r0rv5J87ULqZMf/NkDPsU6wYPFvF/VYwm6DXMvJqU2kkbXghHJXKMgKP4QTQIDAQAB"|3600|No|Simple||
