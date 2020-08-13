@@ -12,6 +12,8 @@
 |database1.p5.vc|A|51.79.86.89|10800|No|Simple||
 |docs.p5.vc|A|95.111.228.106|10800|No|Simple||
 |records0.p5.vc|A|95.111.228.106|10800|No|Simple||
+|relay1-1.p5.vc|A|209.126.12.189|10800|No|Simple||
+|relay2-1.p5.vc|A|185.145.129.25|10800|No|Simple||
 |webserver0.p5.vc|A|144.91.77.173|10800|No|Simple||
 |webserver1.p5.vc|A|51.79.87.85|10800|No|Simple||
 |p5.vc|MX|10 p5.vc|10800|No|Simple||
@@ -57,8 +59,10 @@
 
 |Server|Pointer Record|
 | :------------ | :------------ |
-|webserver0|webserver0.priveasy.org|
-|webserver1|webserver1.priveasy.org|
 |database0|database0.p5.vc|
 |database1|database1.p5.vc|
 |records0|mail.priveasy.org|
+|relay1-1|relay1-1.p5.vc|
+|relay2-1|relay2-1.p5.vc|
+|webserver0|webserver0.priveasy.org|
+|webserver1|webserver1.priveasy.org|
