@@ -204,6 +204,8 @@ Priveasy currently calculates its price per plan by taking the exact amount it c
 
 The extra 50% we take goes towards paying our developers and administrative staff, advertising, getting third party security audits, covering legal fees, maintaining bug bounties, etc. As Priveasy grows and we gain more users, we plan to lower this percentage significantly.
 
+Priveasy is looking to transition to a transparent financial system, such as that provided by Open Collective. However, we have been informed that we may not do so until we reach 100 stars on GitHub. As such, if you are reading this, please star our repositories, as you'll be directly helping us to become even more transparent. Thank you!
+
 ## Roadmap
 Some of our current goals (not in any order):
 - Work on building a stronger community
