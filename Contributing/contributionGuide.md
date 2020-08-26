@@ -9,7 +9,7 @@
 
 ## Who can Contribute
 
-Everyone! Priveasy is open to all kinds of contributions from all kinds of people. Although most people contribute code, or open issues, we accept all kinds of help. For example, we're also open to accepting help from lawyers, artists, social media influencers, small printshops and other businesses, etc.
+Everyone! Priveasy is open to all kinds of contributions from all kinds of people. Although most people contribute code or open issues, we accept all kinds of help. For example, we're also open to accepting help from lawyers, artists, social media influencers, small printshops and other businesses, etc.
 
 ## How to Contribute
 
@@ -17,7 +17,7 @@ Everyone! Priveasy is open to all kinds of contributions from all kinds of peopl
 2. If you find that you have something to add, [sign our CLA](#contributor-license-agreement "sign our CLA").
 3. Determine whether to open an issue or a pull request. If you can easily identify the issue, know how to fix it, and are able to fix it, then a pull request is probably your best bet. However, we still recommend opening an issue first to discuss what you would like to fix/add, because it's very likely that internal development is already under way on that issue/feature. Also, if it's a simple or relatively small contribution, we would rather you let us know about it, so that we can fix it, as our internal team can fast track the fix and bypass all of the extra, time consuming code reviews required for external contributions. If your contribution isn't something that can formatted into a pull request or issue, then please contact us directly, using the email attached to our GitHub profile.
 4. Open the issue or make the pull request! We always love contributions, and are more than happy to work with you!
-5. Anyone who makes significant contributions has the opportunity to be featured on our supporters page, should they wish.
+5. Anyone who makes significant contributions has the opportunity to be featured on our supporters page and to take advantage of our contribution rewards, should they wish.
 
 ## What to Contribute
 
@@ -29,7 +29,10 @@ Everyone! Priveasy is open to all kinds of contributions from all kinds of peopl
 - Do you run a small (or large) business that would like to donate some of its resources towards helping us (i.e. print Priveasy stickers and donate to us all of the profits, offer server space or other free resources, etc.)? Thank you! Email us!
 - Are you a lawyer or do you know a lawyer that would be willing to help us pro bono in the event of a legal dispute? Wonderful! Email us!
 - Are you a social media influencer who would be willing to talk about us on the internet, or a reporter who would like to write an article about us? Feel free to do so! If you ever have any questions, don't hesitate to reach out!
+- Are you an artist who would like to create new designs with our logo or improve our webdesign? Please do! We can't wait to see what you come up with!
 - Anything else? Don't hesitate to reach out, using whatever means work best for you!
+
+#### Click [here](https://github.com/P5vc/Documentation/blob/master/About/About.md#roadmap "here") to check out our roadmap. Our roadmap outlines planned additions to Priveasy that you may be able to help us get a head start on... or finish for us!
 
 #### Outstanding Contribution Requests:
 
