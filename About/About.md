@@ -207,9 +207,23 @@ The extra 50% we take goes towards paying our developers and administrative staf
 Priveasy is looking to transition to a transparent financial system, such as that provided by Open Collective. However, we have been informed that we may not do so until we reach 100 stars on GitHub. As such, if you are reading this, please star our repositories, as you'll be directly helping us to become even more transparent. Thank you!
 
 ## Roadmap
-Some of our current goals (not in any order):
+
+### An outline of current goals and planned additions to Priveasy
+
+#### Ordered, technical, and short-term goals:
+
+1. Add a new privacy policy which aims to answer all of the main questions normally asked by VPN review sites and the average consumer
+1. Add 2FA
+1. Find and add a self-hosted Completely Automated Public Turing test to tell Computers and Humans Apart (CAPTCHA)
+1. Verify email accounts/forwarders via a link (remove/modify the need to enter a long token)
+1. Require email account verification upon sign up
+1. Allow VPN users to opt-**in** to have their connection data sent to an external server (therefore no longer requiring them to install a new VPN profile every time a server upgrade is done)
+1. Add support for reserved burner phone numbers (to allow for text message sending and receiving/forwarding)
+
+#### General, non-ordered, or long-term goals:
+
 - Work on building a stronger community
+- Consider removing the need to ask for a user's first name
+- Look into autodetecting abuse on VPN servers, and auto ban/rate limit those accounts (with all analysis/actions done solely on the VPN server, to preserve privacy)
 - Develop a Priveasy mobile application
-- Add support for reserved burner phone numbers per account (to allow text messaging sending and receiving/forwarding)
-- Add 2FA
 - Crowdfund to acquire our own, physical servers, instead of renting VPS's from 3rd-party hosting providers
