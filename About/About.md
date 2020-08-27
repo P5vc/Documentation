@@ -212,7 +212,6 @@ Priveasy is looking to transition to a transparent financial system, such as tha
 
 #### Ordered, technical, and short-term goals:
 
-1. Add a new privacy policy which aims to answer all of the main questions normally asked by VPN review sites and the average consumer
 1. Add 2FA
 1. Find and add a self-hosted Completely Automated Public Turing test to tell Computers and Humans Apart (CAPTCHA)
 1. Verify email accounts/forwarders via a link (remove/modify the need to enter a long token)
