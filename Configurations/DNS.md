@@ -19,7 +19,7 @@
 |p5.vc|MX|10 p5.vc|10800|No|Simple||
 |p5.vc|NS|ns-1203.awsdns-22.org.<br>ns-543.awsdns-03.net.<br>ns-1779.awsdns-30.co.uk.<br>ns-80.awsdns-10.com.|172800|No|Simple||
 |p5.vc|SOA|ns-1203.awsdns-22.org.<br>awsdns-hostmaster.amazon.com.<br>1 7200 900 1209600 86400|900|No|Simple||
-|p5.vc|TXT|"v=spf1 mx a ip4:95.111.228.106/32 include:mail.priveasy.org -all"|10800|No|Simple||
+|p5.vc|TXT|"v=spf1 mx a ip4:95.111.228.106/32 include:mail.priveasy.org -all"<br>"keybase-site-verification=DHramCRdMolyxSdp0eFGBrcEHqTWhi4QPKDlV5vH85U"|86400|No|Simple||
 |_dmarc.p5.vc|TXT|"v=DMARC1; p=reject; pct=100"|10800|No|Simple||
 |dkim._domainkey.p5.vc|TXT|"v=DKIM1; p=MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAoLgiU64/" "JQcKeUgaJMT07RQuA3zC4ZDDU26hVQHGVwHI4AbuTkZUEe3DOWoP52iw5lCK+sB" "h6tjqx7JtLjsXWJjwQ2VMLC23llG9+AAdLGlsi9vYPfvwWkW/zkndnD2FynD/R8" "j0rh0c37EFOIvQ39dNJVj0AcjkQMcKZPBj0a5Sl1NHpZHKgVK+0z+ucR7fJRPwi" "Gj9Mvk1qTwUhbOSXeoz5ak4BMTgM4vZC0/seE0LvAGF46yZyny+rrc6rGXhyeUf" "91K+CXfF1CT0eeNq3XuEM6Fse9p8b0OQquetO8RITaO6kGFr3iradNgpJkpr79f" "h4XreNoznvD0QIDAQAB"|3600|No|Simple||
 
@@ -42,7 +42,7 @@
 |noreply.priveasy.org|MX|10 webserver0.priveasy.org<br>20 webserver1.priveasy.org|10800|No|Simple||
 |priveasy.org|NS|ns-464.awsdns-58.com.<br>ns-1196.awsdns-21.org.<br>ns-666.awsdns-19.net.<br>ns-1771.awsdns-29.co.uk.|172800|No|Simple||
 |priveasy.org|SOA|ns-464.awsdns-58.com.<br>awsdns-hostmaster.amazon.com.<br>1 7200 900 1209600 86400|900|No|Simple||
-|priveasy.org|TXT|"v=spf1 mx ip4:95.111.228.106/32 a:mail.priveasy.org -all"|10800|No|Simple||
+|priveasy.org|TXT|"v=spf1 mx ip4:95.111.228.106/32 a:mail.priveasy.org -all"<br>"keybase-site-verification=7vntSggoXZyNZ19HY6KmnpbjsxcyrYmo2zD7nyqFoBI"|86400|No|Simple||
 |_dmarc.priveasy.org|TXT|"v=DMARC1; p=reject; pct=100"|10800|No|Simple||
 |dkim._domainkey.priveasy.org|TXT|"v=DKIM1; p=MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAwigNdV1j" "CPvZ5UraLd1Fj/WZn1378Yk2lriJivVqNTYlKoBesk3Quoqw3r72CGlHXxT188A" "HrLGgoFaqaFw3NB5r5acOGE7RgeNE5Hm+pQZEwbDME0cx242RA8P1yrQrMNGf/l" "Z4Xa44MTjeKAWtyyUUQEpIUjtllCdWeTqrwtz8qHR8jQivJWzqWExIQQ+VwzVQK" "piYcOwaRtEP5SeHw0VUG1gQKWw5eZ2k4YkHrn3gNXVG3+YyvGGCYJU1rWQQ1uqh" "hWDWy5TPtfKY9AogXNoir+1i8V3uq6HnHu6PiM8CB6NCDIkUVeqQax3DbEirUku" "V5IO8zWYis9vwIDAQAB"|3600|No|Simple||
 |burn.priveasy.org|TXT|"v=spf1 mx ip4:144.91.77.173/32 ip4:51.79.87.85/32 a:webserver0.priveasy.org a:webserver1.priveasy.org -all"|10800|No|Simple||
