@@ -5,6 +5,7 @@
 - [Who can Contribute](#who-can-contribute "Who can Contribute")
 - [How to Contribute](#how-to-contribute "How to Contribute")
 - [What to Contribute](#what-to-contribute "What to Contribute")
+- [Perks of Contributing](#perks-of-contributing "Perks of Contributing")
 - [Contributor License Agreement](#contributor-license-agreement "Contributor License Agreement")
 
 ## Who can Contribute
@@ -14,10 +15,10 @@ Everyone! Priveasy is open to all kinds of contributions from all kinds of peopl
 ## How to Contribute
 
 1. Look to see if your contribution is redundant, before opening a new pull request or issue. Search through open pull requests and issues, and make sure that your contribution is original, or you have something new to add. If you do find out that your contribution—or a similar contribution—is already under way, join the discussion! We always love new perspectives and ideas, and the more help we can get, the better!
-2. If you find that you have something to add, [sign our CLA](#contributor-license-agreement "sign our CLA").
-3. Determine whether to open an issue or a pull request. If you can easily identify the issue, know how to fix it, and are able to fix it, then a pull request is probably your best bet. However, we still recommend opening an issue first to discuss what you would like to fix/add, because it's very likely that internal development is already under way on that issue/feature. Also, if it's a simple or relatively small contribution, we would rather you let us know about it, so that we can fix it, as our internal team can fast track the fix and bypass all of the extra, time consuming code reviews required for external contributions. If your contribution isn't something that can formatted into a pull request or issue, then please contact us directly, using the email attached to our GitHub profile.
-4. Open the issue or make the pull request! We always love contributions, and are more than happy to work with you!
-5. Anyone who makes significant contributions has the opportunity to be featured on our supporters page and to take advantage of our contribution rewards, should they wish.
+1. If you find that you have something to add, [sign our CLA](#contributor-license-agreement "sign our CLA").
+1. Determine whether to open an issue or a pull request. If you can easily identify the issue, know how to fix it, and are able to fix it, then a pull request is probably your best bet. However, we still recommend opening an issue first to discuss what you would like to fix/add, because it's very likely that internal development is already under way on that issue/feature. Also, if it's a simple or relatively small contribution, we would rather you let us know about it, so that we can fix it, as our internal team can fast track the fix and bypass all of the extra, time consuming code reviews required for external contributions. If your contribution isn't something that can formatted into a pull request or issue, then please contact us directly, using the email attached to our GitHub profile.
+1. Open the issue or make the pull request! We always love contributions, and are more than happy to work with you!
+1. Anyone who makes significant contributions has the opportunity to be featured on our supporters page and to take advantage of our contribution rewards, should they wish.
 
 ## What to Contribute
 
@@ -40,6 +41,17 @@ This list includes up-to-date contribution requests: things that we currently ne
 
 - We're looking for mobile application developers who are able to work together to create a secure, stable, and fully functional mobile Priveasy application. We need developers both for iOS and Android. If you are able to help, please contact us, and we will provide you with more information.
 - We're looking for lawyers who are willing to work pro bono, and be "on call," in the event of a legal dispute.
+
+## Perks of Contributing
+
+Anyone who makes a significant contribution to Priveasy is eligible for the following, free perks:
+
+- Personalized listing on our [Supporters](https://github.com/P5vc/Documentation/blob/master/About/Supporters.md "Supporters") page
+- Custom, @P5.vc email account
+- Premium Priveasy Docs (Cryptpad) account
+- 50% discount on all Priveasy services
+
+To claim any/all of these perks, please open an issue or email Admin@Priveasy.org with your GitHub username and a summary of your contributions.
 
 ## Contributor License Agreement
 
