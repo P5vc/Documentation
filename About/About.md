@@ -23,7 +23,7 @@
 
 Priveasy is the world's first (and only) Internet Privacy Services Provider (IPSP) that is both community-driven, and 100% open source. Our entire codebase is available online for anyone to inspect, improve upon, criticize, or contribute-to, making us the only truly, end-to-end transparent IPSP.
 
-Priveasy is not an company, nor a non-profit. We are simply a collaborative: a growing community of dedicated developers who have come together to build something special, something from which everyone can benefit. While Priveasy does have an organizational structure, it is based solely on contributions, and allows anyone to rise or fall as time goes on, based on the level of commitment they are able to sustain.
+Priveasy is not an company, we are simply a not for profit collaborative: a growing community of dedicated developers who have come together to build something special, something from which everyone can benefit. While Priveasy does have an organizational structure, it is based solely on contributions, and allows anyone to rise or fall as time goes on, based on the level of commitment they are able to sustain.
 
 Anyone is welcome to use Priveasy's services. Our goal is to guard everyone's rights to privacy and free speech at all times, no matter your place of origin, economic status, gender, race, sexual orientation, technical knowledge, etc. We are built by everyone to serve everyone.
 
@@ -194,11 +194,11 @@ Priveasy v3.0's story has not yet been told. Priveasy v3.0 is by far the most am
 
 ## Administration
 
-> This section provides an overview of the administrative aspects of Priveasy. For transparency and trust reasons, we felt that it was important to include this section. However, we cannot provide exact details here, in order to protect the identities of those invested in our cause, as well as to protect information as to our exact server locations. If you would like access to greater information, please contact us directly.
+> This section provides an overview of the administrative aspects of Priveasy. For transparency and trust reasons, we felt that it was important to include this section. However, we cannot provide every detail here, in order to protect the identities of those invested in our cause who wish to remain private, as well as other sensitive information such as our exact server locations. If you would like access to greater information, please contact us directly.
 
 > Please note: major contributors to Priveasy (people who have worked with us for awhile yet are not directly affiliated with us or part of our core team) are given access to this extra information by default. This allows us to have third parties who are active and trusted by the open source community vouch for us, and our administrative process. If you would like to be one of these third parties, you are more than welcome to start contributing to our code, and we'd love to have you! If for any reason you think that you have been contributing to us for awhile, and we've accidentally overlooked you, please reach out and let us know!
 
-Priveasy is currently run as an unincorporated organization. We have a few people dedicated to our cause who handle the administrative aspects of Priveasy, as well as maintain consistent development.
+Priveasy is currently run as not for profit organization. We have a few people dedicated to our cause who handle the administrative aspects of Priveasy, as well as maintain consistent development.
 
 Priveasy currently calculates its price per plan by taking the exact amount it costs us to run these services, multiplying that amount by 1.5, and then dividing the final amount by the number of users we have.
 
