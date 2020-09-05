@@ -216,7 +216,6 @@ Priveasy is looking to transition to a transparent financial system, such as tha
 1. Find and add a self-hosted Completely Automated Public Turing test to tell Computers and Humans Apart (CAPTCHA)
 1. Verify email accounts/forwarders via a link (remove/modify the need to enter a long token)
 1. Require email account verification upon sign up
-1. Allow VPN users to opt-**in** to have their connection data sent to an external server (therefore no longer requiring them to install a new VPN profile every time a server upgrade is done)
 1. Add support for reserved burner phone numbers (to allow for text message sending and receiving/forwarding)
 
 #### General, non-ordered, or long-term goals:
