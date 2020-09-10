@@ -10,7 +10,7 @@
 
 ## Who can Contribute
 
-Everyone! Priveasy is open to all kinds of contributions from all kinds of people. Although most people contribute code or open issues, we accept all kinds of help. For example, we're also open to accepting help from lawyers, artists, social media influencers, small printshops and other businesses, etc.
+Everyone! Priveasy is open to all kinds of contributions from all kinds of people. Although most people contribute code or open issues (to report bugs and make feature requests), we accept all kinds of help. For example, we're also open to accepting help from lawyers, artists, social media influencers, small printshops and other businesses, etc. This page will walk you through making a tangible contribution to Priveasy. If you would (also) like to make a donation, you may do so through the GitHub Sponsors program. Our sponsors are eligible for the same rewards as those who contribute code.
 
 ## How to Contribute
 
