@@ -212,15 +212,16 @@ Priveasy is looking to transition to a transparent financial system, such as tha
 
 #### Ordered, technical, and short-term goals:
 
-1. Add 2FA
-1. Find and add a self-hosted Completely Automated Public Turing test to tell Computers and Humans Apart (CAPTCHA)
 1. Verify email accounts/forwarders via a link (remove/modify the need to enter a long token)
 1. Require email account verification upon sign up
+1. Add 2FA
+1. Encrypt all pastes by default (or at the very least optionally) with secrets inaccessible to Priveasy
+1. Implement BotBlock in an efficient fashion (that doesn't significantly strengthen the effects of a DDoS)
 1. Add support for reserved burner phone numbers (to allow for text message sending and receiving/forwarding)
 
 #### General, non-ordered, or long-term goals:
 
-- Work on building a stronger community
+- Work on building a stronger community of users, contributors, supporters, sponsors, influencers, etc.
 - Consider removing the need to ask for a user's first name
 - Look into autodetecting abuse on VPN servers, and auto ban/rate limit those accounts (with all analysis/actions done solely on the VPN server, to preserve privacy)
 - Develop a Priveasy mobile application
