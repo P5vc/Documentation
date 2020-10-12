@@ -13,3 +13,4 @@
   - [DNS](https://github.com/P5vc/Documentation/blob/master/Configurations/DNS.md "DNS")
 - Resources
   - [Logo](https://github.com/P5vc/Documentation/tree/master/Logo "Logo")
+  - [Media](https://github.com/P5vc/Documentation/tree/master/Media "Media")
