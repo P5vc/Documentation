@@ -18,6 +18,7 @@ Below you will find a rough outline as to our coding conventions, and specific t
   - It is the initial declaration of the object
     - The declaration must be made in a separate, proceeding block, even if doing so is redundant
 - Care more about efficiency than readability, but only when a valid, noticeable impact would be made, or could be foreseeably made in the future. Use good judgment when deciding if the efficiency to readability trade-off is worth it
+- Import statements should always be ordered from complex to simple (third-party dependencies -> local imports -> standard library)
 - Avoid dependencies whenever reasonable; if you must rely on a dependency, only import what you need
 - Do not worry about line length
   - The one exception is docstrings: each line of a docstring should not exceed 80 characters in length.
