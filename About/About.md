@@ -15,7 +15,7 @@
   - [Priveasy v1.0](#priveasy-v10 "Priveasy v1.0")
   - [Priveasy v1.x](#priveasy-v1x "Priveasy v1.x")
   - [Priveasy v2.0](#priveasy-v20 "Priveasy v2.0")
-  - [Priveasy v3.0](priveasy-v30 "Priveasy v3.0")
+  - [Priveasy v3.0](#priveasy-v30 "Priveasy v3.0")
 - [Administration](#administration "Administration")
 - [Roadmap](#roadmap "Roadmap")
 
