@@ -49,7 +49,7 @@ Below you will find a rough outline as to our coding conventions, and specific t
 - Maintain a space between keywords, separators, and variables
 - Code blocking:
   - Leave one newline between blocks of code that are not directly related to one another
-  - Leave two newlines between separate functions
+  - Leave two newlines between separate functions or major blocks of code
   - Leave three newlines between separate classes
 
 Wrong:
