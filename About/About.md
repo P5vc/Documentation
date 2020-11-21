@@ -212,6 +212,7 @@ Priveasy is looking to transition to a transparent financial system, such as tha
 
 #### Ordered, technical, and short-term goals:
 
+1. Beautify codebase (isolate large chunks of code into designated functions, add more comments, add docstrings, etc.)
 1. Verify email accounts/forwarders via a link (remove/modify the need to enter a long token)
 1. Require email account verification upon sign up
 1. Add 2FA
@@ -226,3 +227,8 @@ Priveasy is looking to transition to a transparent financial system, such as tha
 - Look into autodetecting abuse on VPN servers, and auto ban/rate limit those accounts (with all analysis/actions done solely on the VPN server, to preserve privacy)
 - Develop a Priveasy mobile application
 - Crowdfund to acquire our own, physical servers, instead of renting VPS's from 3rd-party hosting providers
+
+### Past goals that have since been completed:
+
+- (September 5, 2020): ~~Allow VPN users to opt-**in** to have their connection data sent to an external server (therefore no longer requiring them to install a new VPN profile every time a server upgrade is done)~~
+- (August 27, 2020): ~~Add a new privacy policy which aims to answer all of the main questions normally asked by VPN review sites and the average consumer~~
