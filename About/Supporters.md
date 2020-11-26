@@ -17,16 +17,17 @@ This page is our way to recognize all of the wonderful people, organizations, an
 | ------------ | ------------ |
 |Noah|Priveasy Founder|
 
-## Financial Supporters
-
-|Logo & Link|Name/Brand|Message|Amount|
-| ------------ | ------------ | ------------ | ------------ |
-
-## Influential Supporters
+## Supporters
 
 |Name/Logo|Links and Social Media|Message (Optional)|
 | ------------ | ------------ | ------------ |
 |[![PayWithZcash](https://raw.githubusercontent.com/P5vc/Documentation/master/About/PayWithZcashLogo.jpeg "PayWithZcash")](https://paywithz.cash "PayWithZcash")|Website: [https://paywithz.cash](https://paywithz.cash "https://paywithz.cash")<br/>Twitter: [@paywithzcash](https://twitter.com/paywithzcash "@paywithzcash")||
+
+## Donors
+
+|Name/Logo|Links and Social Media|Message (Optional)|Amount|
+| ------------ | ------------ | ------------ | ------------ |
+|||||
 
 ------------
 
