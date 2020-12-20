@@ -1,7 +1,5 @@
 # Priveasy's DNS Configuration
 
-> Does something look off (outdated, incorrect, could be improved, etc.)? Please let us know! We do our best to keep these records as efficient and up-to-date as possible, but we make mistakes!
-
 ## Hosted Zone 1 (P5.vc)
 
 |Record Name|Record Type|Record Value|TTL|
