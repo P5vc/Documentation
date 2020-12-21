@@ -229,6 +229,7 @@ Priveasy is looking to transition to a transparent financial system, such as tha
 
 ### Past goals that have since been completed:
 
+- (December 20, 2020): ~~Host all of our own DNS records (and keep zero logs), better-ensuring the privacy of our users~~
 - (December 17, 2020): ~~Transition our servers to [Greenhost](https://greenhost.nl/ "Greenhost"), a secure, privacy-respecting, sustainable hosting provider~~
 - (September 5, 2020): ~~Allow VPN users to opt-**in** to have their connection data sent to an external server (therefore no longer requiring them to install a new VPN profile every time a server upgrade is done)~~
 - (August 27, 2020): ~~Add a new privacy policy which aims to answer all of the main questions normally asked by VPN review sites and the average consumer~~
