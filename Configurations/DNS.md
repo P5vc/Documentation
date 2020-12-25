@@ -1,12 +1,13 @@
-# Priveasy's DNS Configuration
+# Priveasy DNS Configuration
 
-## Hosted Zone 1 (P5.vc)
+Priveasy operates its own authoritative nameserver. This means that we host all of the DNS records associated with our domains and services, and can guarantee that zero logs are kept.
+
+## Zone 1 (P5.vc)
 
 |Record Name|Record Type|Record Value|TTL|
 | :------------ | :------------ | :------------ | :------------ |
 |@|A|144.91.77.173|10800|
-|ba|A||10800|
-|badapple|A||10800|
+|badapplews0|A|213.108.105.170|10800|
 |database0|A|161.97.95.155|10800|
 |database1|A|51.79.86.89|10800|
 |docs|A|95.111.228.106|10800|
@@ -15,6 +16,8 @@
 |relay2-1|A|185.145.129.25|10800|
 |webserver0|A|144.91.77.173|10800|
 |webserver1|A|51.79.87.85|10800|
+|ba|CNAME|badapplews0|10800|
+|badapple|CNAME|badapplews0|10800|
 |@|MX|10 @|10800|
 |@|NS|dns0.p5.vc.|86400|
 |@|SOA|p5.vc. admin.priveasy.org.|86400|
@@ -22,17 +25,19 @@
 |_dmarc.p5.vc|TXT|"v=DMARC1; p=reject; pct=100"|10800|
 |dkim._domainkey.p5.vc|TXT|"v=DKIM1; p=MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAoLgiU64/" "JQcKeUgaJMT07RQuA3zC4ZDDU26hVQHGVwHI4AbuTkZUEe3DOWoP52iw5lCK+sB" "h6tjqx7JtLjsXWJjwQ2VMLC23llG9+AAdLGlsi9vYPfvwWkW/zkndnD2FynD/R8" "j0rh0c37EFOIvQ39dNJVj0AcjkQMcKZPBj0a5Sl1NHpZHKgVK+0z+ucR7fJRPwi" "Gj9Mvk1qTwUhbOSXeoz5ak4BMTgM4vZC0/seE0LvAGF46yZyny+rrc6rGXhyeUf" "91K+CXfF1CT0eeNq3XuEM6Fse9p8b0OQquetO8RITaO6kGFr3iradNgpJkpr79f" "h4XreNoznvD0QIDAQAB"|10800|
 
-## Hosted Zone 2 (Priveasy.org)
+## Zone 2 (Priveasy.org)
 
 |Record Name|Record Type|Record Value|TTL|
 | :------------ | :------------ | :------------ | :------------ |
-|badapple|A||10800|
+|@|A|144.91.77.173|10800|
+|badapplews0|A|213.108.105.170|10800|
 |docs|A|95.111.228.106|10800|
 |mail|A|95.111.228.106|10800|
 |webserver0|A|144.91.77.173|10800|
 |webserver1|A|51.79.87.85|10800|
 |autoconfig|CNAME|mail|10800|
 |autodiscover|CNAME|mail|10800|
+|badapple|CNAME|badapplews0|10800|
 |www|CNAME|@|10800|
 |@|MX|10 mail|10800|
 |burn|MX|10 webserver0|10800|
@@ -53,10 +58,11 @@
 |_dmarc.noreply|TXT|"v=DMARC1; p=reject; pct=100"|10800|
 |noreply._domainkey.noreply|TXT|"v=DKIM1; h=sha256; k=rsa; p=MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMII" "CgKCAQEAs95tfINY8HwGjcoX+VBlmQHroL+mn5mtDvtd9z18ipRDlW4ElsIhJQx" "muJI37sWmiASzZh2oYEwE5nQoj0mCxxXUxhotF5UMUINF/rwD/O1c5u/2JvP38A" "6uxj6XV4Mp+DE5iFA/VOVeuJ0jcpAsA09QshqDf3JYo4IzG76bFSxPAI2CDnBXF" "yLuVVO2nmvtjtcm3iOYEIhjJGia1mv2hkHOp6h3trkLkzkfrGNybzSIlE8Zqrix" "OloxDu/XywihoP4N0NEj9u6cfTsSi9fFTTtnF1UZ/gPTnI02v6o0vswL9c5Cp/J" "5OXwA2AEavnyJut1NJ0D59gVeeCb8QIDAQAB"|10800|
 
-## Reverse DNS
+## PTR Records (Reverse DNS)
 
 |Server|Pointer Record|
 | :------------ | :------------ |
+|badapplews0|badapplews0.p5.vc|
 |database0|database0.p5.vc|
 |database1|database1.p5.vc|
 |dns0|dns0.p5.vc|
@@ -65,3 +71,10 @@
 |relay2-1|relay2-1.p5.vc|
 |webserver0|webserver0.priveasy.org|
 |webserver1|webserver1.priveasy.org|
+
+## DNSSEC (DS Records)
+
+|Zone|Key Tag|Algorithm|Digest Type|Digest|
+| :------------ | :------------ | :------------ | :------------ | :------------ |
+|priveasy.org.|13517|ECDSA Curve P-256 with SHA-256 (13)|SHA-256 (2)|F2ECDB794FE78598C0BB96E8432DC50BD9B7287F184FB37F704B5C9B3974D663|
+|p5.vc.|8171|ECDSA Curve P-256 with SHA-256 (13)|SHA-256 (2)|F09C505E651B01A53621A3EAD40A05AA4DD9BBE8E04283566305CE3479BA4733|
