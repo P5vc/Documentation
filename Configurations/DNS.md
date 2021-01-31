@@ -9,11 +9,10 @@ Priveasy operates its own authoritative nameserver. This means that we host all 
 |@|A|144.91.77.173|10800|
 |badapplews0|A|213.108.105.170|10800|
 |database0|A|161.97.95.155|10800|
-|database1|A|51.79.86.89|10800|
 |docs|A|95.111.228.106|10800|
 |records0|A|95.111.228.106|10800|
 |relay1-1|A|209.126.12.189|10800|
-|relay2-1|A|185.145.129.25|10800|
+|relay2-1|A|213.108.110.193|10800|
 |webserver0|A|144.91.77.173|10800|
 |webserver1|A|51.79.87.85|10800|
 |ba|CNAME|badapplews0|10800|
@@ -64,7 +63,6 @@ Priveasy operates its own authoritative nameserver. This means that we host all 
 | :------------ | :------------ |
 |badapplews0|badapplews0.p5.vc|
 |database0|database0.p5.vc|
-|database1|database1.p5.vc|
 |dns0|dns0.p5.vc|
 |records0|mail.priveasy.org|
 |relay1-1|relay1-1.p5.vc|
