@@ -32,6 +32,6 @@ This page is our way to recognize all of the wonderful people, organizations, an
 ------------
 
 ## Claimed Accounts:
-|Name|Email|Priveasy Docs|Re-Evaluation Date|
-| ------------ | ------------ | ------------ | ------------ |
-|Noah|Noah@P5.vc|Noah|August 1, 2021|
+|Name|Email|Re-Evaluation Date|
+| ------------ | ------------ | ------------ |
+|Noah|Noah@P5.vc|June 1, 2022|
