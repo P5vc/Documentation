@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?> <!-- Created with Vectornator for iOS (http://vectornator.io/) --><!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg style="fill-rule:evenodd;clip-rule:evenodd;stroke-linecap:round;stroke-linejoin:round;" xmlns:vectornator="http://vectornator.io" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg" xml:space="preserve" version="1.1" viewBox="0 0 1000 1000">
+<metadata>
+<vectornator:setting key="DimensionsVisible" value="1"/>
+<vectornator:setting key="New" value="1"/>
+<vectornator:setting key="SnapToPoints" value="1"/>
+<vectornator:setting key="GuidesVisible" value="1"/>
+<vectornator:setting key="RulersVisible" value="1"/>
+<vectornator:setting key="CMYKEnabledKey" value="0"/>
+<vectornator:setting key="SnapToEdges" value="1"/>
+<vectornator:setting key="DisplayWhiteBackground" value="0"/>
+<vectornator:setting key="idAngle" value="45"/>
+<vectornator:setting key="SnapToGuides" value="1"/>
+<vectornator:setting key="GridSpacing" value="36"/>
+<vectornator:setting key="Units" value="Pixels"/>
+<vectornator:setting key="DynamicGuides" value="1"/>
+<vectornator:setting key="SnapToGrid" value="1"/>
+</metadata>
+<defs>
+<linearGradient y1="659.974" id="LinearGradient" x1="298.355" y2="658.862" x2="743.947" gradientUnits="userSpaceOnUse" gradientTransform="matrix(-0.844403 -0.844402 1.7321 -1.7321 -328.703 2333.2)">
+<stop stop-color="#199bcc" offset="0"/>
+<stop stop-color="#0975a4" offset="1"/>
+</linearGradient>
+<linearGradient y1="659.974" id="LinearGradient_2" x1="298.355" y2="661.171" x2="743.942" gradientUnits="userSpaceOnUse" gradientTransform="matrix(0.844402 -0.844403 1.7321 1.7321 -1333.2 -328.704)">
+<stop stop-color="#199bcc" offset="0"/>
+<stop stop-color="#0975a4" offset="1"/>
+</linearGradient>
+<linearGradient y1="659.974" id="LinearGradient_3" x1="298.355" y2="658" x2="743.944" gradientUnits="userSpaceOnUse" gradientTransform="matrix(0.844402 0.844402 -1.7321 1.7321 1327.42 -1333.2)">
+<stop stop-color="#199bcc" offset="0"/>
+<stop stop-color="#0975a4" offset="1"/>
+</linearGradient>
+<linearGradient y1="659.974" id="LinearGradient_4" x1="298.355" y2="659.974" x2="891.238" gradientUnits="userSpaceOnUse" gradientTransform="matrix(-0.635687 0.635687 -1.73211 -1.73211 2270.94 1391.62)">
+<stop stop-color="#199bcc" offset="0"/>
+<stop stop-color="#0975a4" offset="1"/>
+</linearGradient>
+<linearGradient y1="537.115" id="LinearGradient_5" x1="376.266" y2="537.115" x2="641.635" gradientUnits="userSpaceOnUse" gradientTransform="matrix(0.923241 0 0 0.918983 30.1162 68.9002)">
+<stop stop-color="#805cb2" offset="0"/>
+<stop stop-color="#ec52b1" offset="1"/>
+</linearGradient>
+<linearGradient y1="391.156" id="LinearGradient_6" x1="400" y2="391.156" x2="600" gradientUnits="userSpaceOnUse" gradientTransform="matrix(1 0 0 1 0 0)">
+<stop stop-color="#805cb2" offset="0"/>
+<stop stop-color="#ec52b1" offset="1"/>
+</linearGradient>
+</defs>
+<g id="Background" vectornator:layerName="Background">
+<path d="M0+0L1000+0L1000+1000L0+1000L0+0Z" opacity="0" fill="#f8f9fa"/>
+<path d="M0+0L1000+0L1000+1000L0+1000L0+0Z" opacity="0" fill="#212529"/>
+<path d="M0+0L1000+0L1000+1000L0+1000L0+0Z" fill-opacity="0" fill="#ffffff" opacity="1"/>
+</g>
+<g id="Border Rectangles" vectornator:layerName="Border Rectangles">
+<path stroke="#000000" stroke-opacity="0" stroke-width="0.1" d="M500.632+1000L0+500.632L124.368+376.264L624.375+876.261L500.632+1000Z" fill="url(#LinearGradient)" stroke-linecap="round" opacity="1" stroke-linejoin="round"/>
+<path stroke="#000000" stroke-opacity="0" stroke-width="0.1" d="M0+500.632L500.631+0L624.155+123.68L123.923+624.196L0+500.632Z" fill="url(#LinearGradient_2)" stroke-linecap="round" opacity="1" stroke-linejoin="round"/>
+<path stroke="#000000" stroke-opacity="0" stroke-width="0.1" d="M500.631+0L1000+500.005L875.988+624.019L376.266+124.389L500.631+0Z" fill="url(#LinearGradient_3)" stroke-linecap="round" opacity="1" stroke-linejoin="round"/>
+<path stroke="#000000" stroke-opacity="0" stroke-width="0.1" d="M1000+500.005L623.643+876.993L500.25+752.269L876.369+376.214L1000+500.005Z" fill="url(#LinearGradient_4)" stroke-linecap="round" opacity="1" stroke-linejoin="round"/>
+</g>
+<g id="Center Lock" vectornator:layerName="Center Lock">
+<path stroke="#000000" stroke-opacity="0" stroke-width="0.1" d="M500+440C432.345+440+377.5+494.845+377.5+562.5C377.5+630.155+432.345+685+500+685C567.655+685+622.5+630.155+622.5+562.5C622.5+494.845+567.655+440+500+440ZM500.004+542C511.77+542+521.309+551.538+521.309+563.304C521.309+571.173+517.002+577.99+510.657+581.679L510.657+616.565L489.352+616.565L489.352+581.679C483.007+577.99+478.7+571.173+478.7+563.304C478.7+551.538+488.238+542+500.004+542Z" fill="url(#LinearGradient_5)" stroke-linecap="round" opacity="1" stroke-linejoin="round"/>
+<path stroke="#000000" stroke-opacity="0" stroke-width="0.1" d="M500+310C444.772+310+400+354.772+400+410L400+472.312C411.132+460.459+424.755+450.721+440+443.5L440+432.312L440+400.719L440+400L440.031+400C440.49+372.328+467.15+350+500+350C532.85+350+559.51+372.328+559.969+400L560+400L560+400.719L560+432.312L560+443.5C575.245+450.721+588.868+460.459+600+472.312L600+410C600+354.772+555.228+310+500+310Z" fill="url(#LinearGradient_6)" stroke-linecap="round" opacity="1" stroke-linejoin="round"/>
+</g>
+</svg>

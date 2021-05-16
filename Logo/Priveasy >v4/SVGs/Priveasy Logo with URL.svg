@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?> <!-- Created with Vectornator for iOS (http://vectornator.io/) --><!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg style="fill-rule:evenodd;clip-rule:evenodd;stroke-linecap:round;stroke-linejoin:round;" xmlns:vectornator="http://vectornator.io" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg" xml:space="preserve" version="1.1" viewBox="0 0 1760 500">
+<metadata>
+<vectornator:setting key="DimensionsVisible" value="1"/>
+<vectornator:setting key="New" value="1"/>
+<vectornator:setting key="SnapToPoints" value="1"/>
+<vectornator:setting key="GuidesVisible" value="1"/>
+<vectornator:setting key="RulersVisible" value="1"/>
+<vectornator:setting key="CMYKEnabledKey" value="0"/>
+<vectornator:setting key="SnapToEdges" value="1"/>
+<vectornator:setting key="DisplayWhiteBackground" value="0"/>
+<vectornator:setting key="idAngle" value="45"/>
+<vectornator:setting key="SnapToGuides" value="1"/>
+<vectornator:setting key="Units" value="Pixels"/>
+<vectornator:setting key="GridSpacing" value="36"/>
+<vectornator:setting key="SnapToGrid" value="1"/>
+<vectornator:setting key="DynamicGuides" value="1"/>
+</metadata>
+<defs>
+<linearGradient y1="659.974" id="LinearGradient" x1="298.355" y2="658.862" x2="743.947" gradientUnits="userSpaceOnUse" gradientTransform="matrix(-0.4222 -0.422199 0.866047 -0.866045 -164.351 1166.6)">
+<stop stop-color="#199bcc" offset="0"/>
+<stop stop-color="#0975a4" offset="1"/>
+</linearGradient>
+<linearGradient y1="659.974" id="LinearGradient_2" x1="298.355" y2="661.171" x2="743.942" gradientUnits="userSpaceOnUse" gradientTransform="matrix(0.4222 -0.422199 0.866048 0.866046 -666.599 -164.351)">
+<stop stop-color="#199bcc" offset="0"/>
+<stop stop-color="#0975a4" offset="1"/>
+</linearGradient>
+<linearGradient y1="659.974" id="LinearGradient_3" x1="298.355" y2="658" x2="743.944" gradientUnits="userSpaceOnUse" gradientTransform="matrix(0.4222 0.422199 -0.866047 0.866045 663.708 -666.597)">
+<stop stop-color="#199bcc" offset="0"/>
+<stop stop-color="#0975a4" offset="1"/>
+</linearGradient>
+<linearGradient y1="659.974" id="LinearGradient_4" x1="298.355" y2="659.974" x2="891.238" gradientUnits="userSpaceOnUse" gradientTransform="matrix(-0.317843 0.317842 -0.866055 -0.866052 1135.47 695.807)">
+<stop stop-color="#199bcc" offset="0"/>
+<stop stop-color="#0975a4" offset="1"/>
+</linearGradient>
+<linearGradient y1="537.115" id="LinearGradient_5" x1="376.266" y2="537.115" x2="641.635" gradientUnits="userSpaceOnUse" gradientTransform="matrix(0.461619 0 0 0.459489 15.058 34.4499)">
+<stop stop-color="#805cb2" offset="0"/>
+<stop stop-color="#ec52b1" offset="1"/>
+</linearGradient>
+<linearGradient y1="391.156" id="LinearGradient_6" x1="400" y2="391.156" x2="600" gradientUnits="userSpaceOnUse" gradientTransform="matrix(0.499999 0 0 0.499997 0 0)">
+<stop stop-color="#805cb2" offset="0"/>
+<stop stop-color="#ec52b1" offset="1"/>
+</linearGradient>
+</defs>
+<g id="Background" vectornator:layerName="Background">
+<path d="M0+0L1760+0L1760+500L0+500L0+0Z" opacity="0" fill="#f8f9fa"/>
+<path d="M0+0L1760+0L1760+500L0+500L0+0Z" opacity="0" fill="#212529"/>
+<path d="M0+0L1760+0L1760+500L0+500L0+0Z" fill-opacity="0" fill="#ffffff" opacity="1"/>
+</g>
+<g id="Border Rectangles" vectornator:layerName="Border Rectangles">
+<path stroke="#000000" stroke-opacity="0" stroke-width="0.1" d="M250.315+500L0+250.315L62.1838+188.131L312.187+438.129L250.315+500Z" fill="url(#LinearGradient)" stroke-linecap="round" opacity="1" stroke-linejoin="round"/>
+<path stroke="#000000" stroke-opacity="0" stroke-width="0.1" d="M0+250.315L250.315+0L312.077+61.8398L61.9612+312.097L0+250.315Z" fill="url(#LinearGradient_2)" stroke-linecap="round" opacity="1" stroke-linejoin="round"/>
+<path stroke="#000000" stroke-opacity="0" stroke-width="0.1" d="M250.315+0L500+250.001L437.993+312.008L188.132+62.1943L250.315+0Z" fill="url(#LinearGradient_3)" stroke-linecap="round" opacity="1" stroke-linejoin="round"/>
+<path stroke="#000000" stroke-opacity="0" stroke-width="0.1" d="M500+250.001L311.821+438.494L250.124+376.132L438.183+188.106L500+250.001Z" fill="url(#LinearGradient_4)" stroke-linecap="round" opacity="1" stroke-linejoin="round"/>
+</g>
+<g id="Center Lock" vectornator:layerName="Center Lock">
+<path stroke="#000000" stroke-opacity="0" stroke-width="0.1" d="M249.999+219.999C216.172+219.999+188.75+247.421+188.75+281.249C188.75+315.076+216.172+342.498+249.999+342.498C283.827+342.498+311.249+315.076+311.249+281.249C311.249+247.421+283.827+219.999+249.999+219.999ZM250.002+270.999C255.885+270.999+260.654+275.768+260.654+281.651C260.654+285.585+258.5+288.994+255.328+290.838L255.328+308.281L244.675+308.281L244.675+290.838C241.503+288.994+239.349+285.585+239.349+281.651C239.349+275.768+244.119+270.999+250.002+270.999Z" fill="url(#LinearGradient_5)" stroke-linecap="round" opacity="1" stroke-linejoin="round"/>
+<path stroke="#000000" stroke-opacity="0" stroke-width="0.1" d="M249.999+154.999C222.385+154.999+199.999+177.385+199.999+204.999L199.999+236.155C205.566+230.228+212.377+225.359+219.999+221.749L219.999+216.155L219.999+200.358L219.999+199.999L220.015+199.999C220.245+186.163+233.574+174.999+249.999+174.999C266.425+174.999+279.754+186.163+279.984+199.999L279.999+199.999L279.999+200.358L279.999+216.155L279.999+221.749C287.622+225.359+294.433+230.228+299.999+236.155L299.999+204.999C299.999+177.385+277.614+154.999+249.999+154.999Z" fill="url(#LinearGradient_6)" stroke-linecap="round" opacity="1" stroke-linejoin="round"/>
+</g>
+<g id="Privacy Text" vectornator:layerName="Privacy Text">
+<path stroke="#ffffff" stroke-opacity="0" stroke-width="0.1" d="M565+0L570+0L570+500L565+500L565+0Z" fill="#805cb2" stroke-linecap="round" opacity="1" stroke-linejoin="round"/>
+<text x="0" font-family="Trattatello" y="0" text-anchor="middle" vectornator:text="Open&#x20;Source&#x20;Privacy" fill="#0975a4" font-size="120" vectornator:width="1128.52" opacity="1" transform="matrix(1.00131 0 0 1.00001 630 230)">
+<tspan x="564.262" y="138" textLength="898.08">
+Open Source Privacy</tspan>
+</text>
+<text x="0" font-family="TimesNewRomanPSMT" y="0" text-anchor="middle" vectornator:text="PRIVEASY" fill="#805cb2" font-size="195" vectornator:width="1031.6" opacity="1" transform="matrix(1.00131 0 0 1.00001 630 70)">
+<tspan x="515.8" y="174" textLength="996.804">
+PRIVEASY</tspan>
+</text>
+<text x="0" font-family="TimesNewRomanPSMT" y="0" text-anchor="middle" vectornator:text=".org" fill="#805cb2" font-size="84" vectornator:width="176.358" opacity="1" transform="matrix(1.00131 0 0 1.00001 1594.45 170.41)">
+<tspan x="88.179" y="75" textLength="132.973">
+.org</tspan>
+</text>
+</g>
+</svg>
